@@ -4,3 +4,5 @@ must vote thumbs up, or thumb down. With each event, the senators force the empe
 based on the vitriol they ferment for Hebron (e.g., by his avoiding youthful combatants on the field). 
 Strategy: Hebron must win flawless strategic victories, while being protected by his fans 
 (e.g., by his avoiding/interacting with youthful raving fans on the field)
+
+- [ ] Hebron must successfully block an enemy Ability to gain that ability.
