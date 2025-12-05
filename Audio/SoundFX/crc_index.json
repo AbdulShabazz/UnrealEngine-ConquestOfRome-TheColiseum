@@ -1,166 +1,164 @@
-[
-    "soundFxTaxonomy__Ambient Environment,",
-    "soundFxTaxonomy__Ambient Environment__Coliseum Ambient,",
-    "soundFxTaxonomy__Ambient Environment__City / Marketplace Ambient,",
-    "soundFxTaxonomy__Ambient Environment__Dungeon / Underground Ambient,",
-    "soundFxTaxonomy__Ambient Environment__Forest / Wilderness Ambient,",
-    "soundFxTaxonomy__Ambient Environment__Temple / Sacred Ambient,",
-    "soundFxTaxonomy__Footsteps & Movement,",
-    "soundFxTaxonomy__Footsteps & Movement__Stone / Marble Floor,",
-    "soundFxTaxonomy__Footsteps & Movement__Sand / Dust,",
-    "soundFxTaxonomy__Footsteps & Movement__Wooden Deck / Bridge,",
-    "soundFxTaxonomy__Footsteps & Movement__Grass / Meadow,",
-    "soundFxTaxonomy__Footsteps & Movement__Water / Shallow Stream,",
-    "soundFxTaxonomy__Combat Weapon Sounds,",
-    "soundFxTaxonomy__Combat Weapon Sounds__Sword Swings,",
-    "soundFxTaxonomy__Combat Weapon Sounds__Sword Impacts,",
-    "soundFxTaxonomy__Combat Weapon Sounds__Spear Thrust,",
-    "soundFxTaxonomy__Combat Weapon Sounds__Axe Swing,",
-    "soundFxTaxonomy__Combat Weapon Sounds__Mace / Flail Swing,",
-    "soundFxTaxonomy__Combat Weapon Sounds__Weapon Unsheathe / Sheath,",
-    "soundFxTaxonomy__Combat Impact & Damage,",
-    "soundFxTaxonomy__Combat Impact & Damage__Armor Clank,",
-    "soundFxTaxonomy__Combat Impact & Damage__Shield Block,",
-    "soundFxTaxonomy__Combat Impact & Damage__Grunt / Pain Vocalizations,",
-    "soundFxTaxonomy__Combat Impact & Damage__Death Cry,",
-    "soundFxTaxonomy__Combat Impact & Damage__Blood Splatter / Gore Impact,",
-    "soundFxTaxonomy__Combat Impact & Damage__Weapon Parry / Counter,",
-    "soundFxTaxonomy__Creature Sounds,",
-    "soundFxTaxonomy__Creature Sounds__Dragon Roar,",
-    "soundFxTaxonomy__Creature Sounds__Dragon Wing Flap,",
-    "soundFxTaxonomy__Creature Sounds__Dragon Fire Breath,",
-    "soundFxTaxonomy__Creature Sounds__Ogre Grunts & Roars,",
-    "soundFxTaxonomy__Creature Sounds__Ogre Footsteps,",
-    "soundFxTaxonomy__Creature Sounds__Mystical Beast Roar (e.g., Chimera, Hydra),",
-    "soundFxTaxonomy__Magic & Spell Sounds,",
-    "soundFxTaxonomy__Magic & Spell Sounds__Spell Cast Initiation,",
-    "soundFxTaxonomy__Magic & Spell Sounds__Spell Charge / Build-up,",
-    "soundFxTaxonomy__Magic & Spell Sounds__Projectile Travel,",
-    "soundFxTaxonomy__Magic & Spell Sounds__Spell Impact / Explosion,",
-    "soundFxTaxonomy__Magic & Spell Sounds__Buff / Debuff Aura,",
-    "soundFxTaxonomy__Magic & Spell Sounds__Spell Success / Fail UI Cue,",
-    "soundFxTaxonomy__Magic & Spell Sounds__Teleport / Portal,",
-    "soundFxTaxonomy__Item Interaction,",
-    "soundFxTaxonomy__Item Interaction__Item Pickup,",
-    "soundFxTaxonomy__Item Interaction__Item Equip / Unequip,",
-    "soundFxTaxonomy__Item Interaction__Potion / Consumable Use,",
-    "soundFxTaxonomy__Item Interaction__Chest / Container Open,",
-    "soundFxTaxonomy__Item Interaction__Gold / Coin Jingle,",
-    "soundFxTaxonomy__Item Interaction__Weapon/Armor Break,",
-    "soundFxTaxonomy__Item Interaction__Crafting / Upgrade,",
-    "soundFxTaxonomy__Environmental Ambience,",
-    "soundFxTaxonomy__Environmental Ambience__Coliseum Crowd Murmur,",
-    "soundFxTaxonomy__Environmental Ambience__Marketplace Ambient,",
-    "soundFxTaxonomy__Environmental Ambience__Forest Ambient,",
-    "soundFxTaxonomy__Environmental Ambience__Cave / Dungeon Drip,",
-    "soundFxTaxonomy__Environmental Ambience__Wind / Storm,",
-    "soundFxTaxonomy__UI & Menu Sounds,",
-    "soundFxTaxonomy__UI & Menu Sounds__Button Click,",
-    "soundFxTaxonomy__UI & Menu Sounds__Menu Open / Close,",
-    "soundFxTaxonomy__UI & Menu Sounds__Inventory Slot Select,",
-    "soundFxTaxonomy__UI & Menu Sounds__Skill Unlock / Level Up,",
-    "soundFxTaxonomy__UI & Menu Sounds__Error / Invalid Action,",
-    "soundFxTaxonomy__Cinematic & Narrative,",
-    "soundFxTaxonomy__Cinematic & Narrative__Cinematic Music Cue,",
-    "soundFxTaxonomy__Cinematic & Narrative__Narration / Voice-over,",
-    "soundFxTaxonomy__Cinematic & Narrative__Transition Swish,",
-    "soundFxTaxonomy__UI & Menu Sounds,",
-    "soundFxTaxonomy__UI & Menu Sounds__General Confirmation,",
-    "soundFxTaxonomy__UI & Menu Sounds__General Cancel,",
-    "soundFxTaxonomy__Ambient Music Loops,",
-    "soundFxTaxonomy__Ambient Music Loops__Arena Theme,",
-    "soundFxTaxonomy__Ambient Music Loops__Exploration Theme,",
-    "soundFxTaxonomy__Ambient Music Loops__Boss Fight Theme,",
-    "soundFxTaxonomy__Ambient Music Loops__Victory / Triumph,",
-    "soundFxTaxonomy__Ambient Music Loops__Defeat / Game Over,",
-    "categories__General Gameplay,",
-    "categories__General Gameplay__UI Click / Confirm,",
-    "categories__General Gameplay__UI Cancel / Back,",
-    "categories__General Gameplay__Error / Invalid Action,",
-    "categories__General Gameplay__Footsteps (Generic),",
-    "categories__General Gameplay__Player Jump,",
-    "categories__General Gameplay__Player Land,",
-    "categories__General Gameplay__Ambient Crowd Murmur (Coliseum),",
-    "categories__General Gameplay__Environmental Ambience (Marketplace),",
-    "categories__General Gameplay__Environmental Ambience (Forest),",
-    "categories__Combat,",
-    "categories__Combat__Attack Swing,",
-    "categories__Combat__Attack Hit (Generic),",
-    "categories__Combat__Attack Miss,",
-    "categories__Combat__Block / Parry,",
-    "categories__Combat__Dodge Roll,",
-    "categories__Combat__Critical Hit,",
-    "categories__Combat__Weapon Clash (Heavy),",
-    "categories__Combat__Weapon Clash (Light),",
-    "categories__Special Moves,",
-    "categories__Special Moves__Power Strike,",
-    "categories__Special Moves__Whirlwind Attack,",
-    "categories__Special Moves__Shield Bash,",
-    "categories__Special Moves__Finisher Move,",
-    "categories__Special Moves__Magic Burst (Skill Activation),",
-    "categories__Movement,",
-    "categories__Movement__Walk,",
-    "categories__Movement__Run,",
-    "categories__Movement__Sprint,",
-    "categories__Movement__Horse Ride,",
-    "categories__Movement__Vehicle Engine (If applicable),",
-    "categories__Combat,",
-    "categories__Combat__Attack Swing,",
-    "categories__Combat__Attack Hit (Generic),",
-    "categories__Combat__Attack Miss,",
-    "categories__Combat__Block / Parry,",
-    "categories__Combat__Dodge Roll,",
-    "categories__Combat__Critical Hit,",
-    "categories__Combat__Weapon Clash (Heavy),",
-    "categories__Combat__Weapon Clash (Light),",
-    "categories__Special Moves,",
-    "categories__Special Moves__Power Strike,",
-    "categories__Special Moves__Whirlwind Attack,",
-    "categories__Special Moves__Shield Bash,",
-    "categories__Special Moves__Finisher Move,",
-    "categories__Special Moves__Magic Burst (Skill Activation),",
-    "categories__Environmental Interactions,",
-    "categories__Environmental Interactions__Door Open,",
-    "categories__Environmental Interactions__Door Close,",
-    "categories__Environmental Interactions__Chest Open,",
-    "categories__Environmental Interactions__Object Break (Wooden),",
-    "categories__Environmental Interactions__Object Break (Stone),",
-    "categories__Environmental Interactions__NPC Interaction (Talk),",
-    "categories__Environmental Interactions__NPC Interaction (Quest Item Pickup),",
-    "categories__Special Moves,",
-    "categories__Special Moves__Power Strike,",
-    "categories__Special Moves__Whirlwind Attack,",
-    "categories__Special Moves__Shield Bash,",
-    "categories__Special Moves__Finisher Move,",
-    "categories__Special Moves__Magic Burst (Skill Activation),",
-    "categories__Environment,",
-    "categories__Environment__Wind,",
-    "categories__Environment__Water Flow (River),",
-    "categories__Environment__Fire Crackle,",
-    "categories__Environment__Bird Chirps,",
-    "categories__UI,",
-    "categories__UI__Menu Open,",
-    "categories__UI__Menu Close,",
-    "categories__UI__Button Click,",
-    "categories__UI__Notification Alert,",
-    "categories__UI__Inventory Item Pick Up,",
-    "categories__UI__Error/Invalid Action,",
-    "categories__Ambient,",
-    "categories__Ambient__Ambient Crowd Murmur (Coliseum),",
-    "categories__Ambient__Environmental Ambience (Marketplace),",
-    "categories__Ambient__Environmental Ambience (Forest),",
-    "categories__Ambient__Water Flow (River),",
-    "categories__Ambient__Wind,",
-    "categories__Ambient__Fire Crackle,",
-    "categories__Ambient__Bird Chirps,",
-    "categories__Dialogue,",
-    "categories__Dialogue__NPC Greeting,",
-    "categories__Dialogue__NPC Farewell,",
-    "categories__Dialogue__Quest Completion,",
-    "categories__Music,",
-    "categories__Music__Exploration Theme,",
-    "categories__Music__Combat Theme,",
-    "categories__Music__Boss Battle Theme,",
-    "categories__Music__Victory Theme,",
-    "categories__Music__Defeat Theme"
-]
+soundFxTaxonomy__Ambient Environment
+soundFxTaxonomy__Ambient Environment__Coliseum Ambient: Murmurs of the crowd, distant chants, stone echo, subtle wind in the arena.
+soundFxTaxonomy__Ambient Environment__City / Marketplace Ambient: Street vendors shouting, distant bells, bustling foot traffic, distant horse hooves.
+soundFxTaxonomy__Ambient Environment__Dungeon / Underground Ambient: Dripping water, distant echoes, faint wind, scuttling insects.
+soundFxTaxonomy__Ambient Environment__Forest / Wilderness Ambient: Leaves rustling, birdsong, distant animal calls, wind through trees.
+soundFxTaxonomy__Ambient Environment__Temple / Sacred Ambient: Echoing chants, distant organ tones, subtle choir hum.
+soundFxTaxonomy__Footsteps & Movement
+soundFxTaxonomy__Footsteps & Movement__Stone / Marble Floor: Hard clacking footsteps appropriate for the arena, coliseum floor, or temple interiors.
+soundFxTaxonomy__Footsteps & Movement__Sand / Dust: Soft shuffling sound for desert arenas or dusty streets.
+soundFxTaxonomy__Footsteps & Movement__Wooden Deck / Bridge: Creaking wooden footfalls for bridges, ship decks, or wooden arena sections.
+soundFxTaxonomy__Footsteps & Movement__Grass / Meadow: Soft rustle of blades of grass underfoot.
+soundFxTaxonomy__Footsteps & Movement__Water / Shallow Stream: Splashy footfalls when walking through water or a shallow pool.
+soundFxTaxonomy__Combat Weapon Sounds
+soundFxTaxonomy__Combat Weapon Sounds__Sword Swings: Whoosh and metallic swish for short-blade attacks.
+soundFxTaxonomy__Combat Weapon Sounds__Sword Impacts: Clash, clang, and flesh impact for sword hits on armor, shields, or bodies.
+soundFxTaxonomy__Combat Weapon Sounds__Spear Thrust: Sharp piercing whoosh and impact thud.
+soundFxTaxonomy__Combat Weapon Sounds__Axe Swing: Heavy whoosh and deep chop.
+soundFxTaxonomy__Combat Weapon Sounds__Mace / Flail Swing: Whirling metallic clang and impact thud.
+soundFxTaxonomy__Combat Weapon Sounds__Weapon Unsheathe / Sheath: Metallic scrape and clink when drawing or stowing a weapon.
+soundFxTaxonomy__Combat Impact & Damage
+soundFxTaxonomy__Combat Impact & Damage__Armor Clank: Metallic clang when two pieces of armor collide or a shield blocks.
+soundFxTaxonomy__Combat Impact & Damage__Shield Block: Sharp metallic block sound with a brief reverberation.
+soundFxTaxonomy__Combat Impact & Damage__Grunt / Pain Vocalizations: Short vocal sounds for players and NPCs taking damage.
+soundFxTaxonomy__Combat Impact & Damage__Death Cry: Final gasp or roar when a character or monster dies.
+soundFxTaxonomy__Combat Impact & Damage__Blood Splatter / Gore Impact: Squelch and spray sounds for heavy blows that cause visible blood.
+soundFxTaxonomy__Combat Impact & Damage__Weapon Parry / Counter: Sharp metallic “ping” for a perfectly timed parry.
+soundFxTaxonomy__Creature Sounds
+soundFxTaxonomy__Creature Sounds__Dragon Roar: Deep, resonant roar used for intimidation, attacks, and idle breathing.
+soundFxTaxonomy__Creature Sounds__Dragon Wing Flap: Whooshing sound of massive wings beating the air.
+soundFxTaxonomy__Creature Sounds__Dragon Fire Breath: Incendiary whoosh and crackle as the dragon exhales flame.
+soundFxTaxonomy__Creature Sounds__Ogre Grunts & Roars: Deep guttural grunts, angry roars, and vocalizations for ogre characters.
+soundFxTaxonomy__Creature Sounds__Ogre Footsteps: Heavy thuds on stone or earth as an ogre walks.
+soundFxTaxonomy__Creature Sounds__Mystical Beast Roar (e.g., Chimera, Hydra): Unique, eerie roars for other mystical enemies.
+soundFxTaxonomy__Magic & Spell Sounds
+soundFxTaxonomy__Magic & Spell Sounds__Spell Cast Initiation: Short incantation or magical whoosh at the moment a spell is triggered.
+soundFxTaxonomy__Magic & Spell Sounds__Spell Charge / Build-up: Rising tone or hum while a spell is being charged (e.g., a powerful area spell).
+soundFxTaxonomy__Magic & Spell Sounds__Projectile Travel: Whoosh or humming for fireballs, ice shards, lightning bolts, etc.
+soundFxTaxonomy__Magic & Spell Sounds__Spell Impact / Explosion: Impact thuds, elemental bursts, and reverberations when a spell hits.
+soundFxTaxonomy__Magic & Spell Sounds__Buff / Debuff Aura: Subtle hums, chimes, or whispers indicating a status effect is active.
+soundFxTaxonomy__Magic & Spell Sounds__Spell Success / Fail UI Cue: Short chime for a successful cast, a low buzz for a failed or interrupted spell.
+soundFxTaxonomy__Magic & Spell Sounds__Teleport / Portal: Woosh and shimmering crackle when a character teleports or a portal opens.
+soundFxTaxonomy__Item Interaction
+soundFxTaxonomy__Item Interaction__Item Pickup: Light chime or metallic clang when an item is collected.
+soundFxTaxonomy__Item Interaction__Item Equip / Unequip: Metallic snap and cloth rustle when armor or gear is equipped or removed.
+soundFxTaxonomy__Item Interaction__Potion / Consumable Use: Glug, fizz, or magical pop when a consumable is used.
+soundFxTaxonomy__Item Interaction__Chest / Container Open: Wooden creak and metallic latch click when a chest or crate is opened.
+soundFxTaxonomy__Item Interaction__Gold / Coin Jingle: Clinking coins, used for money transactions, loot drops, and vending.
+soundFxTaxonomy__Item Interaction__Weapon/Armor Break: Creaking metal or shattering sound when a piece of gear breaks.
+soundFxTaxonomy__Item Interaction__Crafting / Upgrade: Hammering, welding, or magical forge sounds for crafting or upgrading gear.
+soundFxTaxonomy__Environmental Ambience
+soundFxTaxonomy__Environmental Ambience__Coliseum Crowd Murmur: Low-volume chatter, distant applause, and occasional cheers.
+soundFxTaxonomy__Environmental Ambience__Marketplace Ambient: Vendor shouts, barter calls, distant animal sounds, and faint foot traffic.
+soundFxTaxonomy__Environmental Ambience__Forest Ambient: Birdsong, rustling leaves, distant animal calls.
+soundFxTaxonomy__Environmental Ambience__Cave / Dungeon Drip: Water droplets and echoing drips in underground areas.
+soundFxTaxonomy__Environmental Ambience__Wind / Storm: Rising wind, distant thunder, and rain for weather effects.
+soundFxTaxonomy__UI & Menu Sounds
+soundFxTaxonomy__UI & Menu Sounds__Button Click: Soft click for UI button presses.
+soundFxTaxonomy__UI & Menu Sounds__Menu Open / Close: Subtle swoosh or chime when a menu opens or closes.
+soundFxTaxonomy__UI & Menu Sounds__Inventory Slot Select: Soft tick when navigating inventory slots.
+soundFxTaxonomy__UI & Menu Sounds__Skill Unlock / Level Up: Bright chime or fanfare for progression events.
+soundFxTaxonomy__UI & Menu Sounds__Error / Invalid Action: Low buzz or buzzer when an invalid action is attempted.
+soundFxTaxonomy__Cinematic & Narrative
+soundFxTaxonomy__Cinematic & Narrative__Cinematic Music Cue: Full-orchestral tracks used during story cut-scenes.
+soundFxTaxonomy__Cinematic & Narrative__Narration / Voice-over: Storytelling voice lines for cut-scenes or tutorial guidance.
+soundFxTaxonomy__Cinematic & Narrative__Transition Swish: Quick swish for scene changes or fast cuts.
+soundFxTaxonomy__UI & Menu Sounds
+soundFxTaxonomy__UI & Menu Sounds__General Confirmation: Short positive chime when an action is confirmed.
+soundFxTaxonomy__UI & Menu Sounds__General Cancel: Low descending tone when an action is cancelled.
+soundFxTaxonomy__Ambient Music Loops
+soundFxTaxonomy__Ambient Music Loops__Arena Theme: Driving rhythmic track for gladiatorial combat in the coliseum.
+soundFxTaxonomy__Ambient Music Loops__Exploration Theme: Ambient melodic music for wandering the city, markets, or open world.
+soundFxTaxonomy__Ambient Music Loops__Boss Fight Theme: Intense, high-energy track for major encounters (e.g., dragon, ogre warlord).
+soundFxTaxonomy__Ambient Music Loops__Victory / Triumph: Uplifting fanfare after winning a battle or completing a quest.
+soundFxTaxonomy__Ambient Music Loops__Defeat / Game Over: Somber, low-tempo track for defeat scenarios.
+categories__General Gameplay
+categories__General Gameplay__UI Click / Confirm: Short, crisp click sound used for confirming selections, button presses, and menu navigation.
+categories__General Gameplay__UI Cancel / Back: A soft, descending tone indicating a cancel or back action.
+categories__General Gameplay__Error / Invalid Action: Low buzz or buzzer sound for invalid actions or error notifications.
+categories__General Gameplay__Footsteps (Generic): Footstep sounds for the player walking on various surfaces (stone, wood, metal, etc.).
+categories__General Gameplay__Player Jump: A light, airy sound when the player jumps.
+categories__General Gameplay__Player Land: A soft thud or impact sound when the player lands from a jump or fall.
+categories__General Gameplay__Ambient Crowd Murmur (Coliseum): Low-volume chatter, distant applause, and occasional cheers that give life to the arena.
+categories__General Gameplay__Environmental Ambience (Marketplace): Background chatter of vendors, distant animal sounds, and faint market music.
+categories__General Gameplay__Environmental Ambience (Forest): Birdsong, rustling leaves, distant animal calls.
+categories__Combat
+categories__Combat__Attack Swing: A swooshing sound that accompanies a weapon swing, regardless of hit or miss.
+categories__Combat__Attack Hit (Generic): A sharp impact sound for a successful hit on an opponent.
+categories__Combat__Attack Miss: A light whoosh indicating a missed attack.
+categories__Combat__Block / Parry: A metallic clang or thunk when the player successfully blocks or parries an incoming attack.
+categories__Combat__Dodge Roll: A swift whoosh or slide sound as the player performs a dodge roll.
+categories__Combat__Critical Hit: A sharp, high-impact sound combined with a brief metallic ring for critical strikes.
+categories__Combat__Weapon Clash (Heavy): A resonant clang for heavy weapons colliding (e.g., swords, axes).
+categories__Combat__Weapon Clash (Light): A lighter, quicker clang for fast weapons (e.g., daggers).
+categories__Special Moves
+categories__Special Moves__Power Strike: A deep, resonant whoosh followed by a heavy impact when the player performs a charged or power attack.
+categories__Special Moves__Whirlwind Attack: A swirling wind sound combined with metallic slashes for area-of-effect spin attacks.
+categories__Special Moves__Shield Bash: A heavy thump followed by a metallic clang when a shield is used to strike.
+categories__Special Moves__Finisher Move: A dramatic, high-intensity sound cue for executing a finishing move on an enemy.
+categories__Special Moves__Magic Burst (Skill Activation): A bright, shimmering sound that signals the activation of a magical skill.
+categories__Movement
+categories__Movement__Walk: Light footsteps on various surfaces.
+categories__Movement__Run: Faster, louder footstep sounds for running.
+categories__Movement__Sprint: Intense footstep sounds with a subtle wind rush for high-speed movement.
+categories__Movement__Horse Ride: Rhythmic hoofbeats and occasional reins creak while riding a horse.
+categories__Movement__Vehicle Engine (If applicable): Low rumble and rev sounds for any vehicle the player may use.
+categories__Combat
+categories__Combat__Attack Swing: Swoosh sound for weapon swings.
+categories__Combat__Attack Hit (Generic): Sharp impact sound when a weapon lands on an opponent.
+categories__Combat__Attack Miss: Light whoosh indicating a missed swing.
+categories__Combat__Block / Parry: Metallic clang or thunk for successful blocks/parries.
+categories__Combat__Dodge Roll: Swift whoosh or slide sound as the player rolls to evade.
+categories__Combat__Critical Hit: Sharp, high-impact sound combined with a brief metallic ring for critical strikes.
+categories__Combat__Weapon Clash (Heavy): Resonant clang for heavy weapons colliding.
+categories__Combat__Weapon Clash (Light): Lighter, quicker clang for fast weapons.
+categories__Special Moves
+categories__Special Moves__Power Strike: Deep, resonant whoosh followed by a heavy impact for a charged attack.
+categories__Special Moves__Whirlwind Attack: Swirling wind sound combined with metallic slashes for area-of-effect spin attacks.
+categories__Special Moves__Shield Bash: Heavy thump followed by a metallic clang when a shield is used to strike.
+categories__Special Moves__Finisher Move: Dramatic, high-intensity sound cue for executing a finishing move.
+categories__Special Moves__Magic Burst (Skill Activation): Bright, shimmering sound signaling the activation of a magical skill.
+categories__Environmental Interactions
+categories__Environmental Interactions__Door Open: Creaking sound when a door is opened.
+categories__Environmental Interactions__Door Close: Creaking sound when a door is closed.
+categories__Environmental Interactions__Chest Open: A metallic click followed by a faint magical chime when opening a treasure chest.
+categories__Environmental Interactions__Object Break (Wooden): Creaking and snapping sound for breaking wooden objects.
+categories__Environmental Interactions__Object Break (Stone): Sharp cracking sound for breaking stone objects.
+categories__Environmental Interactions__NPC Interaction (Talk): Soft voice line when the player talks to an NPC.
+categories__Environmental Interactions__NPC Interaction (Quest Item Pickup): Subtle chime when the player picks up a quest item.
+categories__Special Moves
+categories__Special Moves__Power Strike: Deep, resonant whoosh followed by a heavy impact when the player performs a charged or power attack.
+categories__Special Moves__Whirlwind Attack: Swirling wind sound combined with metallic slashes for area-of-effect spin attacks.
+categories__Special Moves__Shield Bash: Heavy thump followed by a metallic clang when a shield is used to strike.
+categories__Special Moves__Finisher Move: Dramatic, high-intensity sound cue for executing a finishing move on an enemy.
+categories__Special Moves__Magic Burst (Skill Activation): Bright, shimmering sound that signals the activation of a magical skill.
+categories__Environment
+categories__Environment__Wind: Soft wind blowing through trees or across plains.
+categories__Environment__Water Flow (River): Gentle flowing water sound for rivers and streams.
+categories__Environment__Fire Crackle: campfire or torches.
+categories__Environment__Bird Chirps: Various bird calls to enrich forest and meadow areas.
+categories__UI
+categories__UI__Menu Open: Soft chime when opening a menu.
+categories__UI__Menu Close: Soft chime when closing a menu.
+categories__UI__Button Click: Light click sound for button interactions.
+categories__UI__Notification Alert: Brief alert tone for in-game notifications (e.g., quest updates).
+categories__UI__Inventory Item Pick Up: Subtle chime when picking up items.
+categories__UI__Error/Invalid Action: Low buzz or buzzer indicating an invalid action.
+categories__Ambient
+categories__Ambient__Ambient Crowd Murmur (Coliseum): Low-volume chatter, distant applause, and occasional cheers that give life to the arena.
+categories__Ambient__Environmental Ambience (Marketplace): Background chatter of vendors, distant animal sounds, and faint market music.
+categories__Ambient__Environmental Ambience (Forest): Birdsong, rustling leaves, distant animal calls.
+categories__Ambient__Water Flow (River): Gentle flowing water sound for rivers and streams.
+categories__Ambient__Wind: Soft wind blowing through trees or across plains.
+categories__Ambient__Fire Crackle: Campfire or torches.
+categories__Ambient__Bird Chirps: Various bird calls to enrich forest and meadow areas.
+categories__Dialogue
+categories__Dialogue__NPC Greeting: Friendly greeting from an NPC.
+categories__Dialogue__NPC Farewell: Farewell line from an NPC.
+categories__Dialogue__Quest Completion: Celebratory line from an NPC upon quest completion.
+categories__Music
+categories__Music__Exploration Theme: Gentle, melodic music for exploration.
+categories__Music__Combat Theme: Intense, rhythmic music for combat scenarios.
+categories__Music__Boss Battle Theme: Epic music for boss fights.
+categories__Music__Victory Theme: Triumphant music after successful battle.
+categories__Music__Defeat Theme: Somber music upon player defeat.
