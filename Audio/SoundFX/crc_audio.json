@@ -1,0 +1,1938 @@
+  [{
+    "soundFxTaxonomy": [
+      {
+        "name": "Ambient Environment",
+        "description": "Background sounds that establish location, time of day, and overall mood. Typically looped and low-frequency-filtered based on distance.",
+        "subcategories": [
+          {
+            "name": "Coliseum Ambient",
+            "description": "Murmurs of the crowd, distant chants, stone echo, subtle wind in the arena.",
+            "exampleFiles": [
+              "coliseum_ambient_day_01.wav",
+              "coliseum_ambient_day_02.wav",
+              "coliseum_ambient_night_01.wav"
+            ],
+            "deploymentGuidelines": "Loop continuously while the player is inside the arena. Cross-fade between day/night variants on time-of-day change. Apply distance attenuation; near the centre play louder, farther away apply a low-pass filter.",
+            "spatialization": "3D ambient zone (non-directional).",
+            "loopable": true,
+            "priority": 10,
+            "tags": ["ambient", "coliseum", "day", "night"]
+          },
+          {
+            "name": "City / Marketplace Ambient",
+            "description": "Street vendors shouting, distant bells, bustling foot traffic, distant horse hooves.",
+            "exampleFiles": [
+              "city_market_ambient_01.wav",
+              "city_market_ambient_02.wav",
+              "city_market_distant_bell_01.wav"
+            ],
+            "deploymentGuidelines": "Play in outdoor city zones. Use random-selection to avoid repetition. Blend with location-specific reverb presets (e.g., narrow alleys vs. open plazas).",
+            "spatialization": "3D, positionable in world.",
+            "loopable": true,
+            "priority": 8,
+            "tags": ["ambient", "city", "market", "outdoor"]
+          },
+          {
+            "name": "Dungeon / Underground Ambient",
+            "description": "Dripping water, distant echoes, faint wind, scuttling insects.",
+            "exampleFiles": [
+              "dungeon_ambient_drip_01.wav",
+              "dungeon_ambient_echo_01.wav",
+              "dungeon_ambient_insect_01.wav"
+            ],
+            "deploymentGuidelines": "Loop while in any underground or dungeon area. Modulate volume based on proximity to water sources or open chambers.",
+            "spatialization": "3D, with reverb zone.",
+            "loopable": true,
+            "priority": 7,
+            "tags": ["ambient", "dungeon", "underground"]
+          },
+          {
+            "name": "Forest / Wilderness Ambient",
+            "description": "Leaves rustling, birdsong, distant animal calls, wind through trees.",
+            "exampleFiles": [
+              "forest_ambient_wind_01.wav",
+              "forest_ambient_birds_01.wav",
+              "forest_ambient_crackle_01.wav"
+            ],
+            "deploymentGuidelines": "Loop in any natural outdoor area. Use a layered approach: base wind + occasional bird calls, randomly triggered animal noises.",
+            "spatialization": "3D with foliage reverb.",
+            "loopable": true,
+            "priority": 6,
+            "tags": ["ambient", "forest", "nature"]
+          },
+          {
+            "name": "Temple / Sacred Ambient",
+            "description": "Echoing chants, distant organ tones, subtle choir hum.",
+            "exampleFiles": [
+              "temple_ambient_chant_01.wav",
+              "temple_ambient_organ_01.wav"
+            ],
+            "deploymentGuidelines": "Play inside religious or ceremonial structures. Use low-pass filtering when the player is outside the doorway.",
+            "spatialization": "3D with large hall reverb.",
+            "loopable": true,
+            "priority": 9,
+            "tags": ["ambient", "temple", "sacred"]
+          }
+        ]
+      },
+      {
+        "name": "Footsteps & Movement",
+        "description": "All locomotion sounds for players, NPCs, and monsters, varying by surface type and armor weight.",
+        "subcategories": [
+          {
+            "name": "Stone / Marble Floor",
+            "description": "Hard clacking footsteps appropriate for the arena, coliseum floor, or temple interiors.",
+            "exampleFiles": [
+              "footstep_stone_heavy_01.wav",
+              "footstep_stone_light_01.wav",
+              "footstep_marble_heavy_01.wav"
+            ],
+            "deploymentGuidelines": "Select heavy vs. light variant based on character weight (gladiator vs. agile mage). Randomize between 3-4 samples. Apply distance attenuation and surface-specific reverb.",
+            "spatialization": "3D, positional with surface-dependent filters.",
+            "loopable": false,
+            "priority": 20,
+            "tags": ["footstep", "stone", "marble", "surface"]
+          },
+          {
+            "name": "Sand / Dust",
+            "description": "Soft shuffling sound for desert arenas or dusty streets.",
+            "exampleFiles": [
+              "footstep_sand_light_01.wav",
+              "footstep_sand_heavy_01.wav"
+            ],
+            "deploymentGuidelines": "Play when the player walks on sand-filled sections of the arena or market streets after a sandstorm. Use a low-pass filter for distant steps.",
+            "spatialization": "3D, with high-frequency roll-off.",
+            "loopable": false,
+            "priority": 18,
+            "tags": ["footstep", "sand", "dust"]
+          },
+          {
+            "name": "Wooden Deck / Bridge",
+            "description": "Creaking wooden footfalls for bridges, ship decks, or wooden arena sections.",
+            "exampleFiles": [
+              "footstep_wood_light_01.wav",
+              "footstep_wood_heavy_01.wav"
+            ],
+            "deploymentGuidelines": "Add occasional board creak on heavy steps for realism. Randomize between light/heavy samples.",
+            "spatialization": "3D, surface-specific reverb.",
+            "loopable": false,
+            "priority": 17,
+            "tags": ["footstep", "wood", "bridge"]
+          },
+          {
+            "name": "Grass / Meadow",
+            "description": "Soft rustle of blades of grass underfoot.",
+            "exampleFiles": [
+              "footstep_grass_light_01.wav",
+              "footstep_grass_heavy_01.wav"
+            ],
+            "deploymentGuidelines": "Used in forest outskirts, training fields, or open plazas with grass. Blend with ambient wind for natural feel.",
+            "spatialization": "3D, subtle high-frequency content.",
+            "loopable": false,
+            "priority": 15,
+            "tags": ["footstep", "grass", "nature"]
+          },
+          {
+            "name": "Water / Shallow Stream",
+            "description": "Splashy footfalls when walking through water or a shallow pool.",
+            "exampleFiles": [
+              "footstep_water_shallow_01.wav"
+            ],
+            "deploymentGuidelines": "Trigger when the player enters water volumes. Apply a wet reverb preset.",
+            "spatialization": "3D, with watery low-pass.",
+            "loopable": false,
+            "priority": 16,
+            "tags": ["footstep", "water", "splash"]
+          }
+        ]
+      },
+      {
+        "name": "Combat Weapon Sounds",
+        "description": "All audio cues for weapon swings, unsheathe/sheath, and melee actions.",
+        "subcategories": [
+          {
+            "name": "Sword Swings",
+            "description": "Whoosh and metallic swish for short-blade attacks.",
+            "exampleFiles": [
+              "sword_swing_light_01.wav",
+              "sword_swing_heavy_01.wav"
+            ],
+            "deploymentGuidelines": "Play on each attack animation trigger. Use different samples for light (quick slash) vs. heavy (overhead) attacks. Add a subtle wind-like trailing effect for fast combos.",
+            "spatialization": "3D, directional based on camera view.",
+            "loopable": false,
+            "priority": 30,
+            "tags": ["weapon", "sword", "swing"]
+          },
+          {
+            "name": "Sword Impacts",
+            "description": "Clash, clang, and flesh impact for sword hits on armor, shields, or bodies.",
+            "exampleFiles": [
+              "sword_impact_armor_01.wav",
+              "sword_impact_flesh_01.wav",
+              "sword_impact_shield_01.wav"
+            ],
+            "deploymentGuidelines": "Select impact type based on material hit (use a runtime material lookup). Randomize between 3-4 variations. Apply volume scaling with hit strength.",
+            "spatialization": "3D, with appropriate reverb zone.",
+            "loopable": false,
+            "priority": 35,
+            "tags": ["weapon", "sword", "impact"]
+          },
+          {
+            "name": "Spear Thrust",
+            "description": "Sharp piercing whoosh and impact thud.",
+            "exampleFiles": [
+              "spear_thrust_whoosh_01.wav",
+              "spear_impact_armor_01.wav",
+              "spear_impact_flesh_01.wav"
+            ],
+            "deploymentGuidelines": "Trigger at the moment of tip contact. Use a distinct “piercing” sound for armor vs. flesh. Add a short trailing air-whoosh for long thrusts.",
+            "spatialization": "3D, slightly forward-biased.",
+            "loopable": false,
+            "priority": 32,
+            "tags": ["weapon", "spear", "thrust"]
+          },
+          {
+            "name": "Axe Swing",
+            "description": "Heavy whoosh and deep chop.",
+            "exampleFiles": [
+              "axe_swing_heavy_01.wav",
+              "axe_impact_armor_01.wav",
+              "axe_impact_flesh_01.wav"
+            ],
+            "deploymentGuidelines": "Play on each swing; heavier than swords, so increase low-frequency content. Use “whoosh” for wind-cutting and “impact” for hit.",
+            "spatialization": "3D, with emphasis on low-mid frequencies.",
+            "loopable": false,
+            "priority": 33,
+            "tags": ["weapon", "axe", "swing"]
+          },
+          {
+            "name": "Mace / Flail Swing",
+            "description": "Whirling metallic clang and impact thud.",
+            "exampleFiles": [
+              "mace_swing_whirl_01.wav",
+              "mace_impact_armor_01.wav",
+              "mace_impact_flesh_01.wav"
+            ],
+            "deploymentGuidelines": "Add a subtle rattling sound while the weapon is in motion. Impacts should be weighty and have a short reverberation.",
+            "spatialization": "3D, with emphasis on mid-high frequencies for the rattling.",
+            "loopable": false,
+            "priority": 34,
+            "tags": ["weapon", "mace", "flail"]
+          },
+          {
+            "name": "Weapon Unsheathe / Sheath",
+            "description": "Metallic scrape and clink when drawing or stowing a weapon.",
+            "exampleFiles": [
+              "weapon_unsheathe_01.wav",
+              "weapon_sheath_01.wav"
+            ],
+            "deploymentGuidelines": "Play on animation events for drawing/sheathing. Use separate samples for light vs. heavy weapons.",
+            "spatialization": "2D (UI-type) or 3D if close to the camera; typically heard in the immediate vicinity.",
+            "loopable": false,
+            "priority": 20,
+            "tags": ["weapon", "draw", "sheath"]
+          }
+        ]
+      },
+      {
+        "name": "Combat Impact & Damage",
+        "description": "Sounds related to hits, blocks, armor clanks, grunt/pain, death, and blood splatter.",
+        "subcategories": [
+          {
+            "name": "Armor Clank",
+            "description": "Metallic clang when two pieces of armor collide or a shield blocks.",
+            "exampleFiles": [
+              "armor_clank_light_01.wav",
+              "armor_clank_heavy_01.wav"
+            ],
+            "deploymentGuidelines": "Trigger on shield block events or when two armored characters clash. Randomize between light/heavy variants based on the relative mass.",
+            "spatialization": "3D, directional based on collision point.",
+            "loopable": false,
+            "priority": 40,
+            "tags": ["impact", "armor", "clank"]
+          },
+          {
+            "name": "Shield Block",
+            "description": "Sharp metallic block sound with a brief reverberation.",
+            "exampleFiles": [
+              "shield_block_01.wav",
+              "shield_block_heavy_01.wav"
+            ],
+            "deploymentGuidelines": "Play on successful block animation. Mix with a subtle “whoosh” if the block is timed perfectly (perfect block cue).",
+            "spatialization": "3D, slightly forward.",
+            "loopable": false,
+            "priority": 38,
+            "tags": ["impact", "shield", "block"]
+          },
+          {
+            "name": "Grunt / Pain Vocalizations",
+            "description": "Short vocal sounds for players and NPCs taking damage.",
+            "exampleFiles": [
+              "grunt_pain_light_01.wav",
+              "grunt_pain_heavy_01.wav",
+              "grunt_pain_ogre_01.wav",
+              "grunt_pain_dragon_01.wav"
+            ],
+            "deploymentGuidelines": "Select based on character type and damage severity. Randomize to avoid repetition. Add slight pitch variation for heavier hits.",
+            "spatialization": "3D, positioned at the character's location.",
+            "loopable": false,
+            "priority": 45,
+            "tags": ["vocal", "pain", "grunt"]
+          },
+          {
+            "name": "Death Cry",
+            "description": "Final gasp or roar when a character or monster dies.",
+            "exampleFiles": [
+              "death_cry_gladiator_01.wav",
+              "death_cry_ogre_01.wav",
+              "death_cry_dragon_01.wav",
+              "death_cry_mage_01.wav"
+            ],
+            "deploymentGuidelines": "Play once per death. Ensure the sound is not cut off by other events; consider a slight delay after the death animation to avoid clipping with impact sounds.",
+            "spatialization": "3D, with a small reverb tail for dramatic effect.",
+            "loopable": false,
+            "priority": 50,
+            "tags": ["vocal", "death"]
+          },
+          {
+            "name": "Blood Splatter / Gore Impact",
+            "description": "Squelch and spray sounds for heavy blows that cause visible blood.",
+            "exampleFiles": [
+              "blood_splatter_flesh_01.wav",
+              "blood_splatter_heavy_01.wav"
+            ],
+            "deploymentGuidelines": "Play on high-damage hits where visual blood is shown. Use a short, low-volume splash that quickly fades to avoid audio clutter.",
+            "spatialization": "3D, positioned at impact point.",
+            "loopable": false,
+            "priority": 42,
+            "tags": ["impact", "blood", "gore"]
+          },
+          {
+            "name": "Weapon Parry / Counter",
+            "description": "Sharp metallic “ping” for a perfectly timed parry.",
+            "exampleFiles": [
+              "parry_ping_01.wav"
+            ],
+            "deploymentGuidelines": "Play only on perfect timing windows (e.g., when a skill timer registers a parry). Often combined with a visual flash cue.",
+            "spatialization": "3D, centered on the defender.",
+            "loopable": false,
+            "priority": 55,
+            "tags": ["combat", "parry", "skill"]
+          }
+        ]
+      },
+      {
+        "name": "Creature Sounds",
+        "description": "All animal, monster, and mystical creature vocalizations, movement, and special abilities.",
+        "subcategories": [
+          {
+            "name": "Dragon Roar",
+            "description": "Deep, resonant roar used for intimidation, attacks, and idle breathing.",
+            "exampleFiles": [
+              "dragon_roar_idle_01.wav",
+              "dragon_roar_attack_01.wav",
+              "dragon_roar_death_01.wav"
+            ],
+            "deploymentGuidelines": "Play on dragon spawn, before a fire breath, or on death. Use heavy low-frequency boost and a long reverb tail. Consider layering a subtle wind whoosh for added presence.",
+            "spatialization": "3D, with massive radius; apply a custom reverb preset for cavernous spaces.",
+            "loopable": false,
+            "priority": 70,
+            "tags": ["creature", "dragon", "roar"]
+          },
+          {
+            "name": "Dragon Wing Flap",
+            "description": "Whooshing sound of massive wings beating the air.",
+            "exampleFiles": [
+              "dragon_wing_flap_01.wav",
+              "dragon_wing_flap_fast_01.wav"
+            ],
+            "deploymentGuidelines": "Play on take-off, landing, or during aerial combat. Use a low-pass filter for distant flaps.",
+            "spatialization": "3D, directional based on flight path.",
+            "loopable": false,
+            "priority": 65,
+            "tags": ["creature", "dragon", "wing"]
+          },
+          {
+            "name": "Dragon Fire Breath",
+            "description": "Incendiary whoosh and crackle as the dragon exhales flame.",
+            "exampleFiles": [
+              "dragon_fire_breath_whoosh_01.wav",
+              "dragon_fire_breath_crackle_01.wav"
+            ],
+            "deploymentGuidelines": "Play at the start of the fire breath animation; the whoosh precedes the crackle. Combine with fire impact sounds on hit.",
+            "spatialization": "3D, forward-facing cone.",
+            "loopable": false,
+            "priority": 68,
+            "tags": ["creature", "dragon", "fire"]
+          },
+          {
+            "name": "Ogre Grunts & Roars",
+            "description": "Deep guttural grunts, angry roars, and vocalizations for ogre characters.",
+            "exampleFiles": [
+              "ogre_grunt_idle_01.wav",
+              "ogre_roar_attack_01.wav",
+              "ogre_pain_01.wav"
+            ],
+            "deploymentGuidelines": "Play idle grunts randomly when the ogre is idle, roars on attack, and pain grunts on being hit. Use lower pitch for larger ogres.",
+            "spatialization": "3D, localized.",
+            "loopable": false,
+            "priority": 45,
+            "tags": ["creature", "ogre", "vocal"]
+          },
+          {
+            "name": "Ogre Footsteps",
+            "description": "Heavy thuds on stone or earth as an ogre walks.",
+            "exampleFiles": [
+              "ogre_footstep_stone_heavy_01.wav",
+              "ogre_footstep_earth_heavy_01.wav"
+            ],
+            "deploymentGuidelines": "Use for large NPCs or boss encounters. Randomize timing to avoid mechanical feel. Apply a low-pass filter for distant ogre movement.",
+            "spatialization": "3D, strong low-frequency content.",
+            "loopable": false,
+            "priority": 40,
+            "tags": ["creature", "ogre", "footstep"]
+          },
+          {
+            "name": "Mystical Beast Roar (e.g., Chimera, Hydra)",
+            "description": "Unique, eerie roars for other mystical enemies.",
+            "exampleFiles": [
+              "chimera_roar_01.wav",
+              "hydra_roar_01.wav"
+            ],
+            "deploymentGuidelines": "Play on spawn, special attack, or death. Add a subtle echo to emphasize otherworldly nature.",
+            "spatialization": "3D, with custom echo/reverb.",
+            "loopable": false,
+            "priority": 60,
+            "tags": ["creature", "mythic", "roar"]
+          }
+        ]
+      },
+      {
+        "name": "Magic & Spell Sounds",
+        "description": "All auditory cues related to casting, charging, projectile travel, impact, area effects, and buffs/debuffs.",
+        "subcategories": [
+          {
+            "name": "Spell Cast Initiation",
+            "description": "Short incantation or magical whoosh at the moment a spell is triggered.",
+            "exampleFiles": [
+              "spell_cast_start_fire_01.wav",
+              "spell_cast_start_ice_01.wav",
+              "spell_cast_start_arcane_01.wav"
+            ],
+            "deploymentGuidelines": "Play at the exact frame when the caster’s hand or staff begins to move. Use a different timbre per elemental school. Add a subtle “rise” pitch for charge-type spells.",
+            "spatialization": "2D UI-type or 3D if the caster is in view; usually heard in the immediate vicinity.",
+            "loopable": false,
+            "priority": 50,
+            "tags": ["magic", "cast", "initiation"]
+          },
+          {
+            "name": "Spell Charge / Build-up",
+            "description": "Rising tone or hum while a spell is being charged (e.g., a powerful area spell).",
+            "exampleFiles": [
+              "spell_charge_fire_01.wav",
+              "spell_charge_ice_01.wav",
+              "spell_charge_earth_01.wav"
+            ],
+            "deploymentGuidelines": "Looped with a short fade-in/out. Stop when the spell is released or interrupted. Modulate pitch based on charge percent.",
+            "spatialization": "3D with distance attenuation; volume decreases with distance from caster.",
+            "loopable": true,
+            "priority": 48,
+            "tags": ["magic", "charge", "build"]
+          },
+          {
+            "name": "Projectile Travel",
+            "description": "Whoosh or humming for fireballs, ice shards, lightning bolts, etc.",
+            "exampleFiles": [
+              "projectile_fireball_whoosh_01.wav",
+              "projectile_ice_shard_whoosh_01.wav",
+              "projectile_lightning_zap_01.wav"
+            ],
+            "deploymentGuidelines": "Play from the projectile’s start point to its impact. Use a slight Doppler effect for fast projectiles. Randomize minor pitch variations.",
+            "spatialization": "3D, moving source following projectile path.",
+            "loopable": false,
+            "priority": 55,
+            "tags": ["magic", "projectile", "travel"]
+          },
+          {
+            "name": "Spell Impact / Explosion",
+            "description": "Impact thuds, elemental bursts, and reverberations when a spell hits.",
+            "exampleFiles": [
+              "impact_fire_explosion_01.wav",
+              "impact_ice_shatter_01.wav",
+              "impact_arcane_burst_01.wav",
+              "impact_lightning_spark_01.wav"
+            ],
+            "deploymentGuidelines": "Select based on element and surface (e.g., fire on wood vs. fire on stone). Layer a low-frequency boom for area spells.",
+            "spatialization": "3D, with radius-based attenuation for AoE spells.",
+            "loopable": false,
+            "priority": 60,
+            "tags": ["magic", "impact", "explosion"]
+          },
+          {
+            "name": "Buff / Debuff Aura",
+            "description": "Subtle hums, chimes, or whispers indicating a status effect is active.",
+            "exampleFiles": [
+              "buff_aura_strength_01.wav",
+              "debuff_aura_slow_01.wav",
+              "buff_aura_regeneration_01.wav"
+            ],
+            "deploymentGuidelines": "Looped while the effect is active on a character. Fade in/out on apply/remove. Use a distinct timbre per buff category for player recognition.",
+            "spatialization": "3D, attached to the affected character.",
+            "loopable": true,
+            "priority": 30,
+            "tags": ["magic", "buff", "debuff", "aura"]
+          },
+          {
+            "name": "Spell Success / Fail UI Cue",
+            "description": "Short chime for a successful cast, a low buzz for a failed or interrupted spell.",
+            "exampleFiles": [
+              "spell_success_chime_01.wav",
+              "spell_fail_buzz_01.wav"
+            ],
+            "deploymentGuidelines": "Play on UI layer after the cast resolves. Use a bright, high-pitched tone for success; a dull, descending tone for failure.",
+            "spatialization": "2D UI.",
+            "loopable": false,
+            "priority": 70,
+            "tags": ["magic", "ui", "feedback"]
+          },
+          {
+            "name": "Teleport / Portal",
+            "description": "Woosh and shimmering crackle when a character teleports or a portal opens.",
+            "exampleFiles": [
+              "teleport_whoosh_01.wav",
+              "portal_open_crackle_01.wav",
+              "portal_close_crackle_01.wav"
+            ],
+            "deploymentGuidelines": "Play on the origin point for teleport out, and destination point for teleport in. Use a short, high-frequency sparkle for portal activation.",
+            "spatialization": "3D, positioned at the portal location.",
+            "loopable": false,
+            "priority": 45,
+            "tags": ["magic", "teleport", "portal"]
+          }
+        ]
+      },
+      {
+        "name": "Item Interaction",
+        "description": "Sounds for picking up, using, equipping, consuming, and inventory management.",
+        "subcategories": [
+          {
+            "name": "Item Pickup",
+            "description": "Light chime or metallic clang when an item is collected.",
+            "exampleFiles": [
+              "item_pickup_coin_01.wav",
+              "item_pickup_generic_01.wav",
+              "item_pickup_weapon_01.wav"
+            ],
+            "deploymentGuidelines": "Play on the exact frame the item disappears from the world. Use a higher-pitched chime for small items, a deeper clang for heavier gear.",
+            "spatialization": "3D, source at item location; also a UI overlay cue (optional).",
+            "loopable": false,
+            "priority": 25,
+            "tags": ["item", "pickup"]
+          },
+          {
+            "name": "Item Equip / Unequip",
+            "description": "Metallic snap and cloth rustle when armor or gear is equipped or removed.",
+            "exampleFiles": [
+              "item_equip_armor_01.wav",
+              "item_unequip_armor_01.wav",
+              "item_equip_potion_01.wav"
+            ],
+            "deploymentGuidelines": "Triggered by inventory UI actions. Add a subtle “whoosh” if the character performs a quick draw after equipping.",
+            "spatialization": "2D UI or 3D if the character is visible.",
+            "loopable": false,
+            "priority": 20,
+            "tags": ["item", "equip", "ui"]
+          },
+          {
+            "name": "Potion / Consumable Use",
+            "description": "Glug, fizz, or magical pop when a consumable is used.",
+            "exampleFiles": [
+              "consume_potion_health_01.wav",
+              "consume_potion_mana_01.wav",
+              "consume_elixir_01.wav"
+            ],
+            "deploymentGuidelines": "Play at the moment the consumable animation finishes. Add a small “whoosh” if the potion is thrown.",
+            "spatialization": "3D, attached to the character.",
+            "loopable": false,
+            "priority": 30,
+            "tags": ["item", "consume"]
+          },
+          {
+            "name": "Chest / Container Open",
+            "description": "Wooden creak and metallic latch click when a chest or crate is opened.",
+            "exampleFiles": [
+              "container_chest_open_01.wav",
+              "container_crate_open_01.wav"
+            ],
+            "deploymentGuidelines": "Play on the animation event for the lid opening. Follow with a faint “ding” for any loot that appears.",
+            "spatialization": "3D, source at container.",
+            "loopable": false,
+            "priority": 20,
+            "tags": ["item", "container", "open"]
+          },
+          {
+            "name": "Gold / Coin Jingle",
+            "description": "Clinking coins, used for money transactions, loot drops, and vending.",
+            "exampleFiles": [
+              "coins_jingle_01.wav",
+              "coins_rain_01.wav"
+            ],
+            "deploymentGuidelines": "Looped for a short burst when many coins are dropped. Use a bright, high-frequency jingle for small amounts, deeper for large piles.",
+            "spatialization": "2D UI layer (optional) and 3D for large piles.",
+            "loopable": false,
+            "priority": 20,
+            "tags": ["item", "coin"]
+          },
+          {
+            "name": "Weapon/Armor Break",
+            "description": "Creaking metal or shattering sound when a piece of gear breaks.",
+            "exampleFiles": [
+              "weapon_break_01.wav",
+              "armor_break_shatter_01.wav"
+            ],
+            "deploymentGuidelines": "Play when durability reaches zero. Use a sharp crack for metal, a splintering sound for wood.",
+            "spatialization": "3D, at the location of the broken item.",
+            "loopable": false,
+            "priority": 35,
+            "tags": ["item", "break"]
+          },
+          {
+            "name": "Crafting / Upgrade",
+            "description": "Hammering, welding, or magical forge sounds for crafting or upgrading gear.",
+            "exampleFiles": [
+              "craft_hammer_hit_01.wav",
+              "craft_forge_hum_01.wav",
+              "craft_enchant_spark_01.wav"
+            ],
+            "deploymentGuidelines": "Layer multiple sounds for a rich crafting experience: a low hammer hit, a mid-frequency forge hum, and a high-pitch sparkle for magical upgrades.",
+            "spatialization": "2D UI or 3D if the player is near a crafting station.",
+            "loopable": false,
+            "priority": 20,
+            "tags": ["item", "craft", "upgrade"]
+          }
+        ]
+      },
+      {
+        "name": "Environmental Ambience",
+        "description": "Background loops and subtle environmental noises for different zones (coliseum, marketplace, forest, cavern, etc.).",
+        "subcategories": [
+          {
+            "name": "Coliseum Crowd Murmur",
+            "description": "Low-volume chatter, distant applause, and occasional cheers.",
+            "exampleFiles": [
+              "ambience_coliseum_crowd_01.wav"
+            ],
+            "deploymentGuidelines": "Looped with a long fade-in. Use a wide stereo spread. Adjust volume based on the player’s position (e.g., louder when near the arena’s edge).",
+            "spatialization": "2D ambient layer; optionally linked to a reverb zone.",
+            "loopable": true,
+            "priority": 10,
+            "tags": ["ambient", "coliseum"]
+          },
+          {
+            "name": "Marketplace Ambient",
+            "description": "Vendor shouts, barter calls, distant animal sounds, and faint foot traffic.",
+            "exampleFiles": [
+              "ambience_marketplace_01.wav"
+            ],
+            "deploymentGuidelines": "Looped with occasional random voice lines (e.g., “Fresh fish!”). Use a slightly higher-frequency mix than the coliseum to convey openness.",
+            "spatialization": "2D ambient.",
+            "loopable": true,
+            "priority": 10,
+            "tags": ["ambient", "market"]
+          },
+          {
+            "name": "Forest Ambient",
+            "description": "Birdsong, rustling leaves, distant animal calls.",
+            "exampleFiles": [
+              "ambience_forest_birds_01.wav",
+              "ambience_forest_wind_01.wav"
+            ],
+            "deploymentGuidelines": "Looped with occasional random events (e.g., a sudden owl hoot). Use a wide stereo field.",
+            "spatialization": "2D ambient with subtle 3D positioning for occasional directional cues.",
+            "loopable": true,
+            "priority": 8,
+            "tags": ["ambient", "forest"]
+          },
+          {
+            "name": "Cave / Dungeon Drip",
+            "description": "Water droplets and echoing drips in underground areas.",
+            "exampleFiles": [
+              "ambient_cave_drip_01.wav"
+            ],
+            "deploymentGuidelines": "Looped, with random timing variations to simulate natural drips.",
+            "spatialization": "3D, attached to the environment’s reverb.",
+            "loopable": true,
+            "priority": 5,
+            "tags": ["ambient", "cave"]
+          },
+          {
+            "name": "Wind / Storm",
+            "description": "Rising wind, distant thunder, and rain for weather effects.",
+            "exampleFiles": [
+              "weather_wind_gust_01.wav",
+              "weather_rain_light_01.wav",
+              "weather_thunder_distant_01.wav"
+            ],
+            "deploymentGuidelines": "Layered based on weather intensity. Use a low-pass filter for distant thunder. Adjust volume based on player exposure (e.g., inside vs. outside).",
+            "spatialization": "2D ambient with optional 3D reverb for outdoor zones.",
+            "loopable": true,
+            "priority": 12,
+            "tags": ["ambient", "weather"]
+          }
+        ]
+      },
+      {
+        "name": "UI & Menu Sounds",
+        "description": "All non-diegetic sounds that provide feedback for menus, button presses, selections, and other interface interactions.",
+        "subcategories": [
+          {
+            "name": "Button Click",
+            "description": "Soft click for UI button presses.",
+            "exampleFiles": [
+              "ui_button_click_01.wav"
+            ],
+            "deploymentGuidelines": "Play on every UI interaction. Use a low volume to avoid masking game audio. Slightly pitch-shift for “confirm” vs. “cancel” actions if desired.",
+            "spatialization": "2D UI.",
+            "loopable": false,
+            "priority": 80,
+            "tags": ["ui", "click"]
+          },
+          {
+            "name": "Menu Open / Close",
+            "description": "Subtle swoosh or chime when a menu opens or closes.",
+            "exampleFiles": [
+              "ui_menu_open_01.wav",
+              "ui_menu_close_01.wav"
+            ],
+            "deploymentGuidelines": "Play at the start of the UI transition animation. Use a short, high-frequency tone for opening, a descending tone for closing.",
+            "spatialization": "2D UI.",
+            "loopable": false,
+            "priority": 78,
+            "tags": ["ui", "menu"]
+          },
+          {
+            "name": "Inventory Slot Select",
+            "description": "Soft tick when navigating inventory slots.",
+            "exampleFiles": [
+              "ui_inventory_tick_01.wav"
+            ],
+            "deploymentGuidelines": "Play on each navigation input. Keep volume low so it doesn't interfere with combat sounds.",
+            "spatialization": "2D UI.",
+            "loopable": false,
+            "priority": 75,
+            "tags": ["ui", "inventory"]
+          },
+          {
+            "name": "Skill Unlock / Level Up",
+            "description": "Bright chime or fanfare for progression events.",
+            "exampleFiles": [
+              "ui_skill_unlock_chime_01.wav",
+              "ui_level_up_fanfare_01.wav"
+            ],
+            "deploymentGuidelines": "Play once the player confirms the unlock. Use a distinct, uplifting timbre to reinforce achievement.",
+            "spatialization": "2D UI.",
+            "loopable": false,
+            "priority": 85,
+            "tags": ["ui", "progression"]
+          },
+          {
+            "name": "Error / Invalid Action",
+            "description": "Low buzz or buzzer when an invalid action is attempted.",
+            "exampleFiles": [
+              "ui_error_buzz_01.wav"
+            ],
+            "deploymentGuidelines": "Play on invalid button press, insufficient resources, or cooldown attempt. Keep volume moderate to avoid frustration.",
+            "spatialization": "2D UI.",
+            "loopable": false,
+            "priority": 80,
+            "tags": ["ui", "error"]
+          }
+        ]
+      },
+      {
+        "name": "Cinematic & Narrative",
+        "description": "Music cues, narration, cut-scene sounds, and dramatic transitions.",
+        "subcategories": [
+          {
+            "name": "Cinematic Music Cue",
+            "description": "Full-orchestral tracks used during story cut-scenes.",
+            "exampleFiles": [
+              "cinematic_intro_theme_01.wav",
+              "cinematic_battle_prelude_01.wav",
+              "cinematic_ending_theme_01.wav"
+            ],
+            "deploymentGuidelines": "Cross-fade with gameplay music. Use a dedicated audio bus with higher master volume to ensure prominence.",
+            "spatialization": "2D stereo.",
+            "loopable": false,
+            "priority": 90,
+            "tags": ["music", "cinematic"]
+          },
+          {
+            "name": "Narration / Voice-over",
+            "description": "Storytelling voice lines for cut-scenes or tutorial guidance.",
+            "exampleFiles": [
+              "narration_intro_01.wav",
+              "narration_tutorial_01.wav",
+              "narration_boss_intro_01.wav"
+            ],
+            "deploymentGuidelines": "Play after the cinematic visuals begin. Use a clean, clear voice with slight reverb for epic moments.",
+            "spatialization": "2D mono or stereo, depending on source material.",
+            "loopable": false,
+            "priority": 95,
+            "tags": ["narration", "voice"]
+          },
+          {
+            "name": "Transition Swish",
+            "description": "Quick swish for scene changes or fast cuts.",
+            "exampleFiles": [
+              "transition_swish_01.wav"
+            ],
+            "deploymentGuidelines": "Play at the exact frame of a visual transition (e.g., fade-out). Keep short and high-frequency to avoid masking dialogue.",
+            "spatialization": "2D UI.",
+            "loopable": false,
+            "priority": 85,
+            "tags": ["ui", "transition"]
+          }
+        ]
+      },
+      {
+        "name": "UI & Menu Sounds",
+        "description": "Duplicate category for completeness; includes all generic UI feedback not covered elsewhere.",
+        "subcategories": [
+          {
+            "name": "General Confirmation",
+            "description": "Short positive chime when an action is confirmed.",
+            "exampleFiles": [
+              "ui_confirm_chime_01.wav"
+            ],
+            "deploymentGuidelines": "Play after any confirm button press (e.g., 'OK', 'Accept'). Keep volume modest to stay in the background.",
+            "spatialization": "2D UI.",
+            "loopable": false,
+            "priority": 80,
+            "tags": ["ui", "confirm"]
+          },
+          {
+            "name": "General Cancel",
+            "description": "Low descending tone when an action is cancelled.",
+            "exampleFiles": [
+              "ui_cancel_tone_01.wav"
+            ],
+            "deploymentGuidelines": "Play when the player backs out of a menu or aborts an action.",
+            "spatialization": "2D UI.",
+            "loopable": false,
+            "priority": 78,
+            "tags": ["ui", "cancel"]
+          }
+        ]
+      },
+      {
+        "name": "Ambient Music Loops",
+        "description": "Background music tracks that loop per zone or situation (e.g., arena, exploration, boss fight).",
+        "subcategories": [
+          {
+            "name": "Arena Theme",
+            "description": "Driving rhythmic track for gladiatorial combat in the coliseum.",
+            "exampleFiles": [
+              "music_arena_loop_01.wav"
+            ],
+            "deploymentGuidelines": "Looped with seamless cross-fade at loop point. Increase intensity (add percussion layer) when a boss appears.",
+            "spatialization": "2D stereo.",
+            "loopable": true,
+            "priority": 5,
+            "tags": ["music", "arena"]
+          },
+          {
+            "name": "Exploration Theme",
+            "description": "Ambient melodic music for wandering the city, markets, or open world.",
+            "exampleFiles": [
+              "music_exploration_city_01.wav",
+              "music_exploration_forest_01.wav"
+            ],
+            "deploymentGuidelines": "Cross-fade between different area tracks based on player location. Keep volume lower than combat music to allow clear hearing of gameplay sounds.",
+            "spatialization": "2D stereo.",
+            "loopable": true,
+            "priority": 3,
+            "tags": ["music", "exploration"]
+          },
+          {
+            "name": "Boss Fight Theme",
+            "description": "Intense, high-energy track for major encounters (e.g., dragon, ogre warlord).",
+            "exampleFiles": [
+              "music_boss_dragon_01.wav",
+              "music_boss_ogre_01.wav"
+            ],
+            "deploymentGuidelines": "Fade in when the boss health bar appears. Use a dramatic drum hit on phase changes.",
+            "spatialization": "2D stereo.",
+            "loopable": true,
+            "priority": 2,
+            "tags": ["music", "boss"]
+          },
+          {
+            "name": "Victory / Triumph",
+            "description": "Uplifting fanfare after winning a battle or completing a quest.",
+            "exampleFiles": [
+              "music_victory_fanfare_01.wav"
+            ],
+            "deploymentGuidelines": "Play after the combat ends and before any UI rewards screen. Use a short, crescendoing melody.",
+            "spatialization": "2D stereo.",
+            "loopable": false,
+            "priority": 10,
+            "tags": ["music", "victory"]
+          },
+          {
+            "name": "Defeat / Game Over",
+            "description": "Somber, low-tempo track for defeat scenarios.",
+            "exampleFiles": [
+              "music_defeat_01.wav"
+            ],
+            "deploymentGuidelines": "Play after player death when no respawn is immediate. Fade in slowly to match the visual mood.",
+            "spatialization": "2D stereo.",
+            "loopable": true,
+            "priority": 12,
+            "tags": ["music", "defeat"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "categories": [
+      {
+        "name": "General Gameplay",
+        "description": "Core sounds that are used throughout the game regardless of specific actions, such as UI feedback, basic movement, and environmental ambience.",
+        "subcategories": [
+          {
+            "name": "UI Click / Confirm",
+            "description": "Short, crisp click sound used for confirming selections, button presses, and menu navigation.",
+            "exampleFiles": [
+              "ui_click_confirm_01.wav",
+              "ui_click_confirm_02.wav"
+            ],
+            "deploymentGuidelines": "Play on every UI interaction event. Use a subtle pitch variation to avoid monotony. Keep the volume low enough to not interfere with gameplay audio.",
+            "spatialization": "2D UI",
+            "loopable": false,
+            "priority": 80,
+            "tags": ["ui", "click", "confirm"]
+          },
+          {
+            "name": "UI Cancel / Back",
+            "description": "A soft, descending tone indicating a cancel or back action.",
+            "exampleFiles": [
+              "ui_cancel_back_01.wav"
+            ],
+            "deploymentGuidelines": "Play when the player navigates back or cancels an action. Use a slightly lower pitch than the confirm sound.",
+            "spatialization": "2D UI",
+            "loopable": false,
+            "priority": 78,
+            "tags": ["ui", "cancel", "back"]
+          },
+          {
+            "name": "Error / Invalid Action",
+            "description": "Low buzz or buzzer sound for invalid actions or error notifications.",
+            "exampleFiles": [
+              "ui_error_invalid_01.wav"
+            ],
+            "deploymentGuidelines": "Trigger on attempts that fail due to cooldowns, insufficient resources, or out-of-range actions. Keep the sound short and distinct.",
+            "spatialization": "2D UI",
+            "loopable": false,
+            "priority": 75,
+            "tags": ["ui", "error", "invalid"]
+          },
+          {
+            "name": "Footsteps (Generic)",
+            "description": "Footstep sounds for the player walking on various surfaces (stone, wood, metal, etc.).",
+            "exampleFiles": [
+              "footstep_stone_01.wav",
+              "footstep_wood_01.wav",
+              "footstep_metal_01.wav"
+            ],
+            "deploymentGuidelines": "Play based on the surface material detected under the player. Randomize between a small set of variations to prevent repetitive patterns. Adjust volume based on player speed (walk vs. run).",
+            "spatialization": "3D positional (if applicable)",
+            "loopable": false,
+            "priority": 60,
+            "tags": ["movement", "footsteps"]
+          },
+          {
+            "name": "Player Jump",
+            "description": "A light, airy sound when the player jumps.",
+            "exampleFiles": [
+              "player_jump_01.wav"
+            ],
+            "deploymentGuidelines": "Play at the start of the jump animation. If the player lands on a different surface, trigger the appropriate footstep sound on landing.",
+            "spatialization": "3D positional",
+            "loopable": false,
+            "priority": 70,
+            "tags": ["movement", "jump"]
+          },
+          {
+            "name": "Player Land",
+            "description": "A soft thud or impact sound when the player lands from a jump or fall.",
+            "exampleFiles": [
+              "player_land_01.wav"
+            ],
+            "deploymentGuidelines": "Play on landing. Vary pitch based on the height of the fall for realism.",
+            "spatialization": "3D positional",
+            "loopable": false,
+            "priority": 68,
+            "tags": ["movement", "land"]
+          },
+          {
+            "name": "Ambient Crowd Murmur (Coliseum)",
+            "description": "Low-volume chatter, distant applause, and occasional cheers that give life to the arena.",
+            "exampleFiles": [
+              "ambient_crowd_murmur_01.wav"
+            ],
+            "deploymentGuidelines": "Looped ambient track with occasional random cheer spikes. Volume should be subtle, rising slightly during key moments (e.g., when a champion enters).",
+            "spatialization": "2D ambient",
+            "loopable": true,
+            "priority": 10,
+            "tags": ["ambient", "crowd", "coliseum"]
+          },
+          {
+            "name": "Environmental Ambience (Marketplace)",
+            "description": "Background chatter of vendors, distant animal sounds, and faint market music.",
+            "exampleFiles": [
+              "ambient_marketplace_01.wav"
+            ],
+            "deploymentGuidelines": "Looped ambient track for market areas. Add occasional random voice lines (e.g., vendor shouts) to keep it lively.",
+            "spatialization": "2D ambient",
+            "loopable": true,
+            "priority": 9,
+            "tags": ["ambient", "marketplace"]
+          },
+          {
+            "name": "Environmental Ambience (Forest)",
+            "description": "Birdsong, rustling leaves, distant animal calls.",
+            "exampleFiles": [
+              "ambient_forest_01.wav"
+            ],
+            "deploymentGuidelines": "Looped ambient track for forest zones. Randomize certain events like owl hoots for variation.",
+            "spatialization": "2D ambient",
+            "loopable": true,
+            "priority": 8,
+            "tags": ["ambient", "forest"]
+          }
+        ]
+      },
+      {
+        "name": "Combat",
+        "description": "Sounds directly related to combat actions, including attacks, hits, blocks, parries, and impact feedback.",
+        "subcategories": [
+          {
+            "name": "Attack Swing",
+            "description": "A swooshing sound that accompanies a weapon swing, regardless of hit or miss.",
+            "exampleFiles": [
+              "combat_attack_swing_01.wav",
+              "combat_attack_swing_02.wav"
+            ],
+            "deploymentGuidelines": "Play at the start of the attack animation. Use a slight pitch variation for left/right swings or different weapon types.",
+            "spatialization": "2D stereo (non-positional)",
+            "loopable": false,
+            "priority": 70,
+            "tags": ["combat", "attack", "swing"]
+          },
+          {
+            "name": "Attack Hit (Generic)",
+            "description": "A sharp impact sound for a successful hit on an opponent.",
+            "exampleFiles": [
+              "combat_hit_generic_01.wav",
+              "combat_hit_generic_02.wav"
+            ],
+            "deploymentGuidelines": "Trigger when an attack lands on an enemy. Layer with a subtle low-frequency thud for heavier weapons.",
+            "spatialization": "3D positional (based on enemy location)",
+            "loopable": false,
+            "priority": 68,
+            "tags": ["combat", "hit"]
+          },
+          {
+            "name": "Attack Miss",
+            "description": "A light whoosh indicating a missed attack.",
+            "exampleFiles": [
+              "combat_miss_whoosh_01.wav"
+            ],
+            "deploymentGuidelines": "Play when an attack animation ends without registering a hit. Keep the sound subtle to not distract the player.",
+            "spatialization": "2D stereo",
+            "loopable": false,
+            "priority": 65,
+            "tags": ["combat", "miss"]
+          },
+          {
+            "name": "Block / Parry",
+            "description": "A metallic clang or thunk when the player successfully blocks or parries an incoming attack.",
+            "exampleFiles": [
+              "combat_block_parry_01.wav",
+              "combat_block_parry_02.wav"
+            ],
+            "deploymentGuidelines": "Trigger on a successful block/parry event. Use a higher-pitch clang for light weapons and a deeper thud for heavy armor.",
+            "spatialization": "3D positional",
+            "loopable": false,
+            "priority": 72,
+            "tags": ["combat", "block", "parry"]
+          },
+          {
+            "name": "Dodge Roll",
+            "description": "A swift whoosh or slide sound as the player performs a dodge roll.",
+            "exampleFiles": [
+              "combat_dodge_roll_01.wav"
+            ],
+            "deploymentGuidelines": "Play at the start of the roll animation. Add a subtle trailing wind effect for longer rolls.",
+            "spatialization": "2D stereo",
+            "loopable": false,
+            "priority": 70,
+            "tags": ["combat", "dodge"]
+          },
+          {
+            "name": "Critical Hit",
+            "description": "A sharp, high-impact sound combined with a brief metallic ring for critical strikes.",
+            "exampleFiles": [
+              "combat_critical_hit_01.wav"
+            ],
+            "deploymentGuidelines": "Play on a critical hit event. Layer a short, bright chime on top of the normal hit sound for emphasis.",
+            "spatialization": "3D positional",
+            "loopable": false,
+            "priority": 85,
+            "tags": ["combat", "critical"]
+          },
+          {
+            "name": "Weapon Clash (Heavy)",
+            "description": "A resonant clang for heavy weapons colliding (e.g., swords, axes).",
+            "exampleFiles": [
+              "combat_heavy_clash_01.wav"
+            ],
+            "deploymentGuidelines": "Trigger on weapon-to-weapon contact, such as during parries or enemy attacks. Use a longer decay to convey weight.",
+            "spatialization": "3D positional",
+            "loopable": false,
+            "priority": 68,
+            "tags": ["combat", "clash", "heavy"]
+          },
+          {
+            "name": "Weapon Clash (Light)",
+            "description": "A lighter, quicker clang for fast weapons (e.g., daggers).",
+            "exampleFiles": [
+              "combat_light_clash_01.wav"
+            ],
+            "deploymentGuidelines": "Trigger on light weapon contacts. Shorter decay than heavy clashes.",
+            "spatialization": "3D positional",
+            "loopable": false,
+            "priority": 66,
+            "tags": ["combat", "clash", "light"]
+          }
+        ]
+      },
+      {
+        "name": "Special Moves",
+        "description": "Unique audio cues for special attacks, abilities, and skill activations that differentiate them from regular attacks.",
+        "subcategories": [
+          {
+            "name": "Power Strike",
+            "description": "A deep, resonant whoosh followed by a heavy impact when the player performs a charged or power attack.",
+            "exampleFiles": [
+              "special_power_strike_whoosh_01.wav",
+              "special_power_strike_impact_01.wav"
+            ],
+            "deploymentGuidelines": "Play the whoosh at the start of the charge, then the impact on hit. Add a subtle low-frequency rumble for very heavy weapons.",
+            "spatialization": "3D positional",
+            "loopable": false,
+            "priority": 85,
+            "tags": ["special", "power", "strike"]
+          },
+          {
+            "name": "Whirlwind Attack",
+            "description": "A swirling wind sound combined with metallic slashes for area-of-effect spin attacks.",
+            "exampleFiles": [
+              "special_whirlwind_wind_01.wav",
+              "special_whirlwind_slash_01.wav"
+            ],
+            "deploymentGuidelines": "Play the wind sound continuously during the spin, layered with periodic slash sounds. Fade out when the attack ends.",
+            "spatialization": "3D positional (centered on player)",
+            "loopable": true,
+            "priority": 80,
+            "tags": ["special", "whirlwind", "aoe"]
+          },
+          {
+            "name": "Shield Bash",
+            "description": "A heavy thump followed by a metallic clang when a shield is used to strike.",
+            "exampleFiles": [
+              "special_shield_bash_thump_01.wav",
+              "special_shield_bash_clang_01.wav"
+            ],
+            "deploymentGuidelines": "Play the thump at impact, then the clang as the shield rebounds. Keep both sounds short to avoid clutter.",
+            "spatialization": "3D positional",
+            "loopable": false,
+            "priority": 78,
+            "tags": ["special", "shield", "bash"]
+          },
+          {
+            "name": "Finisher Move",
+            "description": "A dramatic, high-intensity sound cue for executing a finishing move on an enemy.",
+            "exampleFiles": [
+              "special_finisher_impact_01.wav",
+              "special_finisher_scream_01.wav"
+            ],
+            "deploymentGuidelines": "Trigger on the final blow of a finisher animation. Pair the impact sound with a brief, low-pitch scream for added drama.",
+            "spatialization": "3D positional",
+            "loopable": false,
+            "priority": 90,
+            "tags": ["special", "finisher"]
+          },
+          {
+            "name": "Magic Burst (Skill Activation)",
+            "description": "A bright, shimmering sound that signals the activation of a magical skill.",
+            "exampleFiles": [
+              "special_magic_burst_01.wav"
+            ],
+            "deploymentGuidelines": "Play at the exact moment the skill is activated. Add a subtle reverb for a more epic feel.",
+            "spatialization": "2D stereo",
+            "loopable": false,
+            "priority": 85,
+            "tags": ["special", "magic", "skill"]
+          }
+        ]
+      },
+      {
+        "name": "Movement",
+        "description": "Sounds associated with the player’s locomotion, including walking, running, sprinting, and vehicle/horse riding.",
+        "subcategories": [
+          {
+            "name": "Walk",
+            "description": "Light footsteps on various surfaces.",
+            "exampleFiles": [
+              "move_walk_stone_01.wav",
+              "move_walk_wood_01.wav"
+            ],
+            "deploymentGuidelines": "Play on each step while the player is moving at a normal walking speed. Randomize between 2-3 variations per surface.",
+            "spatialization": "3D positional",
+            "loopable": false,
+            "priority": 60,
+            "tags": ["movement", "walk"]
+          },
+          {
+            "name": "Run",
+            "description": "Faster, louder footstep sounds for running.",
+            "exampleFiles": [
+              "move_run_stone_01.wav",
+              "move_run_wood_01.wav"
+            ],
+            "deploymentGuidelines": "Play on each step while running. Increase volume slightly compared to walking. Randomize pitch within a small range.",
+            "spatialization": "3D positional",
+            "loopable": false,
+            "priority": 58,
+            "tags": ["movement", "run"]
+          },
+          {
+            "name": "Sprint",
+            "description": "Intense footstep sounds with a subtle wind rush for high-speed movement.",
+            "exampleFiles": [
+              "move_sprint_stone_01.wav",
+              "move_sprint_wind_01.wav"
+            ],
+            "deploymentGuidelines": "Play while sprinting. Add a low-volume wind whoosh to emphasize speed. Ensure the sound does not mask combat audio.",
+            "spatialization": "3D positional",
+            "loopable": false,
+            "priority": 55,
+            "tags": ["movement", "sprint"]
+          },
+          {
+            "name": "Horse Ride",
+            "description": "Rhythmic hoofbeats and occasional reins creak while riding a horse.",
+            "exampleFiles": [
+              "move_horse_hoofbeats_01.wav",
+              "move_horse_reins_01.wav"
+            ],
+            "deploymentGuidelines": "Loop hoofbeats according to the horse’s gait. Play reins creak when the player adjusts speed or direction.",
+            "spatialization": "3D positional",
+            "loopable": true,
+            "priority": 50,
+            "tags": ["movement", "horse"]
+          },
+          {
+            "name": "Vehicle Engine (If applicable)",
+            "description": "Low rumble and rev sounds for any vehicle the player may use.",
+            "exampleFiles": [
+              "move_vehicle_engine_idle_01.wav",
+              "move_vehicle_engine_rev_01.wav"
+            ],
+            "deploymentGuidelines": "Play idle engine when stationary, rev when accelerating. Loop idle sound; play rev as a one-shot.",
+            "spatialization": "3D positional",
+            "loopable": true,
+            "priority": 48,
+            "tags": ["movement", "vehicle"]
+          }
+        ]
+      },
+      {
+        "name": "Combat",
+        "description": "Sounds directly related to combat actions, including attacks, hits, blocks, parries, and impact feedback.",
+        "subcategories": [
+          {
+            "name": "Attack Swing",
+            "description": "Swoosh sound for weapon swings.",
+            "exampleFiles": [
+              "combat_attack_swing_01.wav",
+              "combat_attack_swing_02.wav"
+            ],
+            "deploymentGuidelines": "Play at the start of an attack animation. Vary pitch slightly for left/right swings.",
+            "spatialization": "2D stereo",
+            "loopable": false,
+            "priority": 70,
+            "tags": ["combat", "attack", "swing"]
+          },
+          {
+            "name": "Attack Hit (Generic)",
+            "description": "Sharp impact sound when a weapon lands on an opponent.",
+            "exampleFiles": [
+              "combat_hit_generic_01.wav",
+              "combat_hit_generic_02.wav"
+            ],
+            "deploymentGuidelines": "Trigger on successful hits. Add a low-frequency thud for heavy weapons.",
+            "spatialization": "3D positional",
+            "loopable": false,
+            "priority": 68,
+            "tags": ["combat", "hit"]
+          },
+          {
+            "name": "Attack Miss",
+            "description": "Light whoosh indicating a missed swing.",
+            "exampleFiles": [
+              "combat_miss_whoosh_01.wav"
+            ],
+            "deploymentGuidelines": "Play when an attack does not register a hit. Keep the sound subtle.",
+            "spatialization": "2D stereo",
+            "loopable": false,
+            "priority": 65,
+            "tags": ["combat", "miss"]
+          },
+          {
+            "name": "Block / Parry",
+            "description": "Metallic clang or thunk for successful blocks/parries.",
+            "exampleFiles": [
+              "combat_block_parry_01.wav",
+              "combat_block_parry_02.wav"
+            ],
+            "deploymentGuidelines": "Play on a successful block or parry. Use a higher pitch for light armor, lower for heavy armor.",
+            "spatialization": "3D positional",
+            "loopable": false,
+            "priority": 72,
+            "tags": ["combat", "block", "parry"]
+          },
+          {
+            "name": "Dodge Roll",
+            "description": "Swift whoosh or slide sound as the player rolls to evade.",
+            "exampleFiles": [
+              "combat_dodge_roll_01.wav"
+            ],
+            "deploymentGuidelines": "Play at the start of a dodge roll animation. Add a subtle wind effect for longer rolls.",
+            "spatialization": "2D stereo",
+            "loopable": false,
+            "priority": 70,
+            "tags": ["combat", "dodge"]
+          },
+          {
+            "name": "Critical Hit",
+            "description": "Sharp, high-impact sound combined with a brief metallic ring for critical strikes.",
+            "exampleFiles": [
+              "combat_critical_hit_01.wav"
+            ],
+            "deploymentGuidelines": "Play on a critical hit event. Layer a short, bright chime on top of the normal hit sound.",
+            "spatialization": "3D positional",
+            "loopable": false,
+            "priority": 85,
+            "tags": ["combat", "critical"]
+          },
+          {
+            "name": "Weapon Clash (Heavy)",
+            "description": "Resonant clang for heavy weapons colliding.",
+            "exampleFiles": [
+              "combat_heavy_clash_01.wav"
+            ],
+            "deploymentGuidelines": "Trigger on weapon-to-weapon contact, such as during parries or enemy attacks. Use a longer decay to convey weight.",
+            "spatialization": "3D positional",
+            "loopable": false,
+            "priority": 68,
+            "tags": ["combat", "clash", "heavy"]
+          },
+          {
+            "name": "Weapon Clash (Light)",
+            "description": "Lighter, quicker clang for fast weapons.",
+            "exampleFiles": [
+              "combat_light_clash_01.wav"
+            ],
+            "deploymentGuidelines": "Trigger on light weapon contacts. Shorter decay than heavy clashes.",
+            "spatialization": "3D positional",
+            "loopable": false,
+            "priority": 66,
+            "tags": ["combat", "clash", "light"]
+          }
+        ]
+      },
+      {
+        "name": "Special Moves",
+        "description": "Unique audio cues for special attacks, abilities, and skill activations that differentiate them from regular attacks.",
+        "subcategories": [
+          {
+            "name": "Power Strike",
+            "description": "Deep, resonant whoosh followed by a heavy impact for a charged attack.",
+            "exampleFiles": [
+              "special_power_strike_whoosh_01.wav",
+              "special_power_strike_impact_01.wav"
+            ],
+            "deploymentGuidelines": "Play the whoosh at charge start, then the impact on hit. Add a subtle low-frequency rumble for very heavy weapons.",
+            "spatialization": "3D positional",
+            "loopable": false,
+            "priority": 85,
+            "tags": ["special", "power", "strike"]
+          },
+          {
+            "name": "Whirlwind Attack",
+            "description": "Swirling wind sound combined with metallic slashes for area-of-effect spin attacks.",
+            "exampleFiles": [
+              "special_whirlwind_wind_01.wav",
+              "special_whirlwind_slash_01.wav"
+            ],
+            "deploymentGuidelines": "Play the wind sound continuously during the spin, layered with periodic slash sounds. Fade out when the attack ends.",
+            "spatialization": "3D positional (centered on player)",
+            "loopable": true,
+            "priority": 80,
+            "tags": ["special", "whirlwind", "aoe"]
+          },
+          {
+            "name": "Shield Bash",
+            "description": "Heavy thump followed by a metallic clang when a shield is used to strike.",
+            "exampleFiles": [
+              "special_shield_bash_thump_01.wav",
+              "special_shield_bash_clang_01.wav"
+            ],
+            "deploymentGuidelines": "Play the thump at impact, then the clang as the shield rebounds. Keep both sounds short to avoid clutter.",
+            "spatialization": "3D positional",
+            "loopable": false,
+            "priority": 78,
+            "tags": ["special", "shield", "bash"]
+          },
+          {
+            "name": "Finisher Move",
+            "description": "Dramatic, high-intensity sound cue for executing a finishing move.",
+            "exampleFiles": [
+              "special_finisher_impact_01.wav",
+              "special_finisher_scream_01.wav"
+            ],
+            "deploymentGuidelines": "Trigger on the final blow of a finisher animation. Pair the impact sound with a brief, low-pitch scream for added drama.",
+            "spatialization": "3D positional",
+            "loopable": false,
+            "priority": 90,
+            "tags": ["special", "finisher"]
+          },
+          {
+            "name": "Magic Burst (Skill Activation)",
+            "description": "Bright, shimmering sound signaling the activation of a magical skill.",
+            "exampleFiles": [
+              "special_magic_burst_01.wav"
+            ],
+            "deploymentGuidelines": "Play at the exact moment the skill is activated. Add a subtle reverb for a more epic feel.",
+            "spatialization": "2D stereo",
+            "loopable": false,
+            "priority": 85,
+            "tags": ["special", "magic", "skill"]
+          }
+        ]
+      },
+      {
+        "name": "Environmental Interactions",
+        "description": "Sounds related to interacting with the game world, such as opening doors, breaking objects, or interacting with NPCs.",
+        "subcategories": [
+          {
+            "name": "Door Open",
+            "description": "Creaking sound when a door is opened.",
+            "exampleFiles": [
+              "env_door_open_01.wav"
+            ],
+            "deploymentGuidelines": "Play when the player interacts with a door. Use a low-pitch variation for heavy doors.",
+            "spatialization": "3D positional",
+            "loopable": false,
+            "priority": 40,
+            "tags": ["environment", "door"]
+          },
+          {
+            "name": "Door Close",
+            "description": "Creaking sound when a door is closed.",
+            "exampleFiles": [
+              "env_door_close_01.wav"
+            ],
+            "deploymentGuidelines": "Play when the player closes a door or when a door closes automatically.",
+            "spatialization": "3D positional",
+            "loopable": false,
+            "priority": 38,
+            "tags": ["environment", "door"]
+          },
+          {
+            "name": "Chest Open",
+            "description": "A metallic click followed by a faint magical chime when opening a treasure chest.",
+            "exampleFiles": [
+              "env_chest_open_click_01.wav",
+              "env_chest_open_chime_01.wav"
+            ],
+            "deploymentGuidelines": "Play click first, then the chime if the chest contains magical items.",
+            "spatialization": "3D positional",
+            "loopable": false,
+            "priority": 42,
+            "tags": ["environment", "chest"]
+          },
+          {
+            "name": "Object Break (Wooden)",
+            "description": "Creaking and snapping sound for breaking wooden objects.",
+            "exampleFiles": [
+              "env_break_wood_creak_01.wav",
+              "env_break_wood_snap_01.wav"
+            ],
+            "deploymentGuidelines": "Trigger when a wooden object is destroyed. Use both sounds together for realism.",
+            "spatialization": "3D positional",
+            "loopable": false,
+            "priority": 35,
+            "tags": ["environment", "break", "wood"]
+          },
+          {
+            "name": "Object Break (Stone)",
+            "description": "Sharp cracking sound for breaking stone objects.",
+            "exampleFiles": [
+              "env_break_stone_crack_01.wav"
+            ],
+            "deploymentGuidelines": "Trigger when stone objects are destroyed. Add a low-frequency rumble for larger objects.",
+            "spatialization": "3D positional",
+            "loopable": false,
+            "priority": 34,
+            "tags": ["environment", "break", "stone"]
+          },
+          {
+            "name": "NPC Interaction (Talk)",
+            "description": "Soft voice line when the player talks to an NPC.",
+            "exampleFiles": [
+              "npc_talk_greeting_01.wav",
+              "npc_talk_farewell_01.wav"
+            ],
+            "deploymentGuidelines": "Play the appropriate line based on the dialogue context. Ensure the volume is lower than combat sounds.",
+            "spatialization": "2D stereo",
+            "loopable": false,
+            "priority": 30,
+            "tags": ["npc", "dialogue"]
+          },
+          {
+            "name": "NPC Interaction (Quest Item Pickup)",
+            "description": "Subtle chime when the player picks up a quest item.",
+            "exampleFiles": [
+              "npc_item_pickup_chime_01.wav"
+            ],
+            "deploymentGuidelines": "Play once when a quest item is collected. Use a bright, short sound to signal importance.",
+            "spatialization": "2D stereo",
+            "loopable": false,
+            "priority": 32,
+            "tags": ["npc", "quest", "item"]
+          }
+        ]
+      },
+      {
+        "name": "Special Moves",
+        "description": "Unique audio cues for special attacks, abilities, and skill activations that differentiate them from regular attacks.",
+        "subcategories": [
+          {
+            "name": "Power Strike",
+            "description": "Deep, resonant whoosh followed by a heavy impact when the player performs a charged or power attack.",
+            "exampleFiles": [
+              "special_power_strike_whoosh_01.wav",
+              "special_power_strike_impact_01.wav"
+            ],
+            "deploymentGuidelines": "Play the whoosh at the start of the charge, then the impact on hit. Add a subtle low-frequency rumble for very heavy weapons.",
+            "spatialization": "3D positional",
+            "loopable": false,
+            "priority": 85,
+            "tags": ["special", "power", "strike"]
+          },
+          {
+            "name": "Whirlwind Attack",
+            "description": "Swirling wind sound combined with metallic slashes for area-of-effect spin attacks.",
+            "exampleFiles": [
+              "special_whirlwind_wind_01.wav",
+              "special_whirlwind_slash_01.wav"
+            ],
+            "deploymentGuidelines": "Play the wind sound continuously during the spin, layered with periodic slash sounds. Fade out when the attack ends.",
+            "spatialization": "3D positional (centered on player)",
+            "loopable": true,
+            "priority": 80,
+            "tags": ["special", "whirlwind", "aoe"]
+          },
+          {
+            "name": "Shield Bash",
+            "description": "Heavy thump followed by a metallic clang when a shield is used to strike.",
+            "exampleFiles": [
+              "special_shield_bash_thump_01.wav",
+              "special_shield_bash_clang_01.wav"
+            ],
+            "deploymentGuidelines": "Play the thump at impact, then the clang as the shield rebounds. Keep both sounds short to avoid clutter.",
+            "spatialization": "3D positional",
+            "loopable": false,
+            "priority": 78,
+            "tags": ["special", "shield", "bash"]
+          },
+          {
+            "name": "Finisher Move",
+            "description": "Dramatic, high-intensity sound cue for executing a finishing move on an enemy.",
+            "exampleFiles": [
+              "special_finisher_impact_01.wav",
+              "special_finisher_scream_01.wav"
+            ],
+            "deploymentGuidelines": "Trigger on the final blow of a finisher animation. Pair the impact sound with a brief, low-pitch scream for added drama.",
+            "spatialization": "3D positional",
+            "loopable": false,
+            "priority": 90,
+            "tags": ["special", "finisher"]
+          },
+          {
+            "name": "Magic Burst (Skill Activation)",
+            "description": "Bright, shimmering sound that signals the activation of a magical skill.",
+            "exampleFiles": [
+              "special_magic_burst_01.wav"
+            ],
+            "deploymentGuidelines": "Play at the exact moment the skill is activated. Add a subtle reverb for a more epic feel.",
+            "spatialization": "2D stereo",
+            "loopable": false,
+            "priority": 85,
+            "tags": ["special", "magic", "skill"]
+          }
+        ]
+      },
+      {
+        "name": "Environment",
+        "description": "Ambient and environmental sounds that set the mood and atmosphere of the game world.",
+        "subcategories": [
+          {
+            "name": "Wind",
+            "description": "Soft wind blowing through trees or across plains.",
+            "exampleFiles": [
+              "env_wind_forest_01.wav",
+              "env_wind_plains_01.wav"
+            ],
+            "deploymentGuidelines": "Looped ambient track. Volume varies based on player location (higher in open areas).",
+            "spatialization": "2D ambient",
+            "loopable": true,
+            "priority": 5,
+            "tags": ["ambient", "wind"]
+          },
+          {
+            "name": "Water Flow (River)",
+            "description": "Gentle flowing water sound for rivers and streams.",
+            "exampleFiles": [
+              "env_water_river_01.wav"
+            ],
+            "deploymentGuidelines": "Looped ambient track near water bodies. Add occasional splashing for realism.",
+            "spatialization": "2D ambient",
+            "loopable": true,
+            "priority": 6,
+            "tags": ["ambient", "water", "river"]
+          },
+          {
+            "name": "Fire Crackle",
+            "description":"campfire or torches.",
+            "exampleFiles": [
+              "env_fire_crackle_01.wav"
+            ],
+            "deploymentGuidelines": "Play near sources of fire. Loop with occasional pops for variation.",
+            "spatialization": "3D positional",
+            "loopable": true,
+            "priority": 7,
+            "tags": ["ambient", "fire"]
+          },
+          {
+            "name": "Bird Chirps",
+            "description": "Various bird calls to enrich forest and meadow areas.",
+            "exampleFiles": [
+              "env_bird_chirp_01.wav",
+              "env_bird_chirp_02.wav"
+            ],
+            "deploymentGuidelines": "Randomly trigger at intervals. Adjust volume based on player proximity to foliage.",
+            "spatialization": "3D positional",
+            "loopable": false,
+            "priority": 4,
+            "tags": ["ambient", "birds"]
+          }
+        ]
+      },
+      {
+        "name": "UI",
+        "description": "User interface sounds for menus, selections, and notifications.",
+        "subcategories": [
+          {
+            "name": "Menu Open",
+            "description": "Soft chime when opening a menu.",
+            "exampleFiles": [
+              "ui_menu_open_01.wav"
+            ],
+            "deploymentGuidelines": "Play when any UI menu is opened. Keep volume low to avoid distraction.",
+            "spatialization": "2D stereo",
+            "loopable": false,
+            "priority": 30,
+            "tags": ["ui", "menu"]
+          },
+          {
+            "name": "Menu Close",
+            "description": "Soft chime when closing a menu.",
+            "exampleFiles": [
+              "ui_menu_close_01.wav"
+            ],
+            "deploymentGuidelines": "Play when any UI menu is closed. Consistent with the open sound.",
+            "spatialization": "2D stereo",
+            "loopable": false,
+            "priority": 30,
+            "tags": ["ui", "menu"]
+          },
+          {
+            "name": "Button Click",
+            "description": "Light click sound for button interactions.",
+            "exampleFiles": [
+              "ui_button_click_01.wav",
+              "ui_button_click_02.wav"
+            ],
+            "deploymentGuidelines": "Play on any button press in the UI. Slight pitch variation to reduce repetition.",
+            "spatialization": "2D stereo",
+            "loopable": false,
+            "priority": 28,
+            "tags": ["ui", "button"]
+          },
+          {
+            "name": "Notification Alert",
+            "description": "Brief alert tone for in-game notifications (e.g., quest updates).",
+            "exampleFiles": [
+              "ui_notification_alert_01.wav"
+            ],
+            "deploymentGuidelines": "Play when a new notification appears. Ensure it is audible over ambient sounds.",
+            "spatialization": "2D stereo",
+            "loopable": false,
+            "priority": 32,
+            "tags": ["ui", "notification"]
+          },
+          {
+            "name": "Inventory Item Pick Up",
+            "description": "Subtle chime when picking up items.",
+            "exampleFiles": [
+              "ui_item_pickup_chime_01.wav"
+            ],
+            "deploymentGuidelines": "Play each time the player adds an item to the inventory. Use a bright, short sound.",
+            "spatialization": "2D stereo",
+            "loopable": false,
+            "priority": 34,
+            "tags": ["ui", "inventory"]
+          },
+          {
+            "name": "Error/Invalid Action",
+            "description": "Low buzz or buzzer indicating an invalid action.",
+            "exampleFiles": [
+              "ui_error_buzz_01.wav"
+            ],
+            "deploymentGuidelines": "Play when the player attempts an unavailable action (e.g., trying to open a locked door without a key).",
+            "spatialization": "2D stereo",
+            "loopable": false,
+            "priority": 20,
+            "tags": ["ui", "error"]
+          }
+        ]
+      },
+      {
+        "name": "Ambient",
+        "description": "Background sounds that set the mood for different environments.",
+        "subcategories": [
+          {
+            "name": "Ambient Crowd Murmur (Coliseum)",
+            "description": "Low-volume chatter, distant applause, and occasional cheers that give life to the arena.",
+            "exampleFiles": [
+              "ambient_crowd_murmur_01.wav"
+            ],
+            "deploymentGuidelines": "Looped ambient track with occasional random cheer spikes. Volume should be subtle, rising slightly during key moments (e.g., when a champion enters).",
+            "spatialization": "2D ambient",
+            "loopable": true,
+            "priority": 10,
+            "tags": ["ambient", "crowd", "coliseum"]
+          },
+          {
+            "name": "Environmental Ambience (Marketplace)",
+            "description": "Background chatter of vendors, distant animal sounds, and faint market music.",
+            "exampleFiles": [
+              "ambient_marketplace_01.wav"
+            ],
+            "deploymentGuidelines": "Looped ambient track for market areas. Add occasional random voice lines (e.g., vendor shouts) to keep it lively.",
+            "spatialization": "2D ambient",
+            "loopable": true,
+            "priority": 9,
+            "tags": ["ambient", "marketplace"]
+          },
+          {
+            "name": "Environmental Ambience (Forest)",
+            "description": "Birdsong, rustling leaves, distant animal calls.",
+            "exampleFiles": [
+              "ambient_forest_01.wav"
+            ],
+            "deploymentGuidelines": "Looped ambient track for forest zones. Randomize certain events like owl hoots for variation.",
+            "spatialization": "2D ambient",
+            "loopable": true,
+            "priority": 8,
+            "tags": ["ambient", "forest"]
+          },
+          {
+            "name": "Water Flow (River)",
+            "description": "Gentle flowing water sound for rivers and streams.",
+            "exampleFiles": [
+              "ambient_water_river_01.wav"
+            ],
+            "deploymentGuidelines": "Looped ambient track near water bodies. Add occasional splashing for realism.",
+            "spatialization": "2D ambient",
+            "loopable": true,
+            "priority": 6,
+            "tags": ["ambient", "water"]
+          },
+          {
+            "name": "Wind",
+            "description": "Soft wind blowing through trees or across plains.",
+            "exampleFiles": [
+              "ambient_wind_forest_01.wav",
+              "ambient_wind_plains_01.wav"
+            ],
+            "deploymentGuidelines": "Looped ambient track. Volume varies based on player location (higher in open areas).",
+            "spatialization": "2D ambient",
+            "loopable": true,
+            "priority": 5,
+            "tags": ["ambient", "wind"]
+          },
+          {
+            "name": "Fire Crackle",
+            "description": "Campfire or torches.",
+            "exampleFiles": [
+              "ambient_fire_crackle_01.wav"
+            ],
+            "deploymentGuidelines": "Play near sources of fire. Loop with occasional pops for variation.",
+            "spatialization": "3D positional",
+            "loopable": true,
+            "priority": 7,
+            "tags": ["ambient", "fire"]
+          },
+          {
+            "name": "Bird Chirps",
+            "description": "Various bird calls to enrich forest and meadow areas.",
+            "exampleFiles": [
+              "ambient_bird_chirp_01.wav",
+              "ambient_bird_chirp_02.wav"
+            ],
+            "deploymentGuidelines": "Randomly trigger at intervals. Adjust volume based on player proximity to foliage.",
+            "spatialization": "3D positional",
+            "loopable": false,
+            "priority": 4,
+            "tags": ["ambient", "birds"]
+          }
+        ]
+      },
+      {
+        "name": "Dialogue",
+        "description": "Voice lines for characters, including the player character and NPCs.",
+        "subcategories": [
+          {
+            "name": "NPC Greeting",
+            "description": "Friendly greeting from an NPC.",
+            "exampleFiles": [
+              "dialogue_npc_greeting_01.wav"
+            ],
+            "deploymentGuidelines": "Play when the player initiates conversation with a friendly NPC. Volume should be clear but not overpowering.",
+            "spatialization": "2D stereo",
+            "loopable": false,
+            "priority": 15,
+            "tags": ["dialogue", "npc", "greeting"]
+          },
+          {
+            "name": "NPC Farewell",
+            "description": "Farewell line from an NPC.",
+            "exampleFiles": [
+              "dialogue_npc_farewell_01.wav"
+            ],
+            "deploymentGuidelines": "Play when conversation ends. Consistent tone with greeting.",
+            "spatialization": "2D stereo",
+            "loopable": false,
+            "priority": 15,
+            "tags": ["dialogue", "npc", "farewell"]
+          },
+          {
+            "name": "Quest Completion",
+            "description": "Celebratory line from an NPC upon quest completion.",
+            "exampleFiles": [
+              "dialogue_quest_complete_01.wav"
+            ],
+            "deploymentGuidelines": "Play when the player completes a quest. Use a distinct, uplifting tone.",
+            "spatialization": "2D stereo",
+            "loopable": false,
+            "priority": 20,
+            "tags": ["dialogue", "quest"]
+          }
+        ]
+      },
+      {
+        "name": "Music",
+        "description": "Background music tracks for various gameplay states and areas.",
+        "subcategories": [
+          {
+            "name": "Exploration Theme",
+            "description": "Gentle, melodic music for exploration.",
+            "exampleFiles": [
+              "music_exploration_01.mp3"
+            ],
+            "deploymentGuidelines": "Play during non-combat exploration. Loop with smooth transitions between areas.",
+            "spatialization": "2D stereo",
+            "loopable": true,
+            "priority": 1,
+            "tags": ["music", "exploration"]
+          },
+          {
+            "name": "Combat Theme",
+            "description": "Intense, rhythmic music for combat scenarios.",
+            "exampleFiles": [
+              "music_combat_01.mp3"
+            ],
+            "deploymentGuidelines": "Play during combat. Ensure it dynamically fades out when combat ends.",
+            "spatialization": "2D stereo",
+            "loopable": true,
+            "priority": 2,
+            "tags": ["music", "combat"]
+          },
+          {
+            "name": "Boss Battle Theme",
+            "description": "Epic music for boss fights.",
+            "exampleFiles": [
+              "music_boss_01.mp3"
+            ],
+            "deploymentGuidelines": "Play at the start of a boss encounter. Higher intensity and longer duration.",
+            "spatialization": "2D stereo",
+            "loopable": true,
+            "priority": 3,
+            "tags": ["music", "boss"]
+          },
+          {
+            "name": "Victory Theme",
+            "description": "Triumphant music after successful battle.",
+            "exampleFiles": [
+              "music_victory_01.mp3"
+            ],
+            "deploymentGuidelines": "Play after combat ends, before returning to exploration music.",
+            "spatialization": "2D stereo",
+            "loopable": false,
+            "priority": 4,
+            "tags": ["music", "victory"]
+          },
+          {
+            "name": "Defeat Theme",
+            "description": "Somber music upon player defeat.",
+            "exampleFiles": [
+              "music_defeat_01.mp3"
+            ],
+            "deploymentGuidelines": "Play when player health reaches zero. Fade out as the game resets or loads checkpoint.",
+            "spatialization": "2D stereo",
+            "loopable": false,
+            "priority": 4,
+            "tags": ["music", "defeat"]
+          }
+        ]
+      }
+    ]
+  }
+]
