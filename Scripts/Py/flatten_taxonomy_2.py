@@ -13,10 +13,8 @@ def flatten_taxonomy(data, prefix=""):
                             # Recurse into subcategories
                             if "subcategories" in entry:
                                 for sub in entry["subcategories"]:
-                                    sub_path = f"{current_path}__{sub['name']}"
-                                    paths.append(sub_path)
-                            else:
-                                current_path += ": " + entry['description']
+                                    sub_path = f"{current_path}__{sub['name']}: {sub['description']}"
+                                    paths.append(sub_path) 
     return paths
 
 with open("crc_audio.json","r",encoding="utf-8") as f:
@@ -25,7 +23,7 @@ with open("crc_audio.json","r",encoding="utf-8") as f:
 flat = flatten_taxonomy(data)
 
 # Load JSON (utf-8 is the de-facto default for modern projects)
-with open("crc_index.json","w+",encoding="utf-8") as fp:    
+with open("crc_index.json","w",encoding="utf-8") as fp:    
     for line in flat:
         fp.write(line + "\n")
 print(f"  Written {len(flat)} lines to crc_index.json")
