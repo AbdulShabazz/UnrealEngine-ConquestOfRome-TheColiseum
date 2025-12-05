@@ -6,3 +6,5 @@ Strategy: Hebron must win flawless strategic victories, while being protected by
 (e.g., by his avoiding/interacting with youthful raving fans on the field)
 
 - [ ] Hebron must successfully block an enemy Ability to gain that ability.
+
+- [ ] Backfill color (BGYOR) of the Combat Carousel communicates player health (when player receives damage, former healthy cells outlines glide to the Left). As time progresses while correct combinations are chosen, HP is regenerated 
