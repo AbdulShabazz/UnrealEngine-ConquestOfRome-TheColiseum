@@ -85,8 +85,6 @@ GLADIATOR_LABELS = load_labels_from_crc(INPUT_TXT) or {
 
 # ---------- MODEL LOAD ----------
 
-# torchaudio.set_audio_backend("soundfile")
-
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 os.system('cls')
