@@ -101,8 +101,7 @@ During pretraining, it learns to make matching audio–text pairs close and non-
 * **Clip duration**: Most official configs assume ~10 s windows (chunking longer clips, padding shorter). Good to match this or at least be aware of truncation/padding behavior. ([Hugging Face][9])
 * **Batching**: You can batch multiple audio clips and multiple text prompts; the model returns pairwise similarity scores.
 
-If you want, I can next sketch a minimal CLAP-based zero-shot classifier in PyTorch targeting your Roman gladiator SFX taxonomy.
-
+```
 [1]: https://huggingface.co/docs/transformers/en/model_doc/clap?utm_source=chatgpt.com "CLAP"
 [2]: https://arxiv.org/abs/2206.04769?utm_source=chatgpt.com "CLAP: Learning Audio Concepts From Natural Language Supervision"
 [3]: https://www.kaggle.com/code/youssef19/zero-shot-audio-classification-with-clap?utm_source=chatgpt.com "Zero-Shot Audio Classification with CLAP"
@@ -112,4 +111,5 @@ If you want, I can next sketch a minimal CLAP-based zero-shot classifier in PyTo
 [7]: https://huggingface.co/docs/transformers/v4.31.0/model_doc/clap?utm_source=chatgpt.com "CLAP"
 [8]: https://huggingface.co/docs/diffusers/v0.21.0/en/api/pipelines/musicldm?utm_source=chatgpt.com "MusicLDM"
 [9]: https://huggingface.co/laion/clap-htsat-fused/blame/main/preprocessor_config.json?utm_source=chatgpt.com "preprocessor_config.json · laion/clap-htsat-fused at main"
+```
 
