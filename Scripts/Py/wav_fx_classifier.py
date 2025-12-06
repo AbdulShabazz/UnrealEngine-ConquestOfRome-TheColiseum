@@ -5,6 +5,7 @@ from pathlib import Path
 import torch
 import torchaudio
 from transformers import AutoProcessor, ClapModel
+from tqdm import tqdm
 
 # ---------- CONFIG ----------
 
@@ -15,7 +16,27 @@ TOP_K = 3  # number of labels per sound
 
 MODEL_ID = "laion/clap-htsat-fused"  # zero-shot audio-text model
 
-GLADIATOR_LABELS = {
+def load_labels_from_crc(filepath: str = "crc_index.txt") -> dict[str, str]:
+    labels = {}
+    
+    with open(filepath, "r", encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if not line or ":" not in line:
+                continue  # skip headers/empty lines
+            
+            # Split taxonomy path from description
+            taxonomy_part, description = line.split(":", 1)
+            
+            # Extract last segment as key: "soundFxTaxonomy__Ambient Environment__Coliseum Ambient"
+            segments = taxonomy_part.split("__")
+            key = segments[-1].strip().lower().replace(" ", "_").replace("/", "_")
+            
+            labels[key] = description.strip()
+    
+    return labels
+
+GLADIATOR_LABELS = load_labels_from_crc("crc_index.txt") or {
     "melee_sword_slash_light":
         "short metal sword slash, close combat, gladius cutting air or light armor, dry, close mic",
     "melee_sword_slash_heavy":
@@ -72,6 +93,9 @@ model.eval()
 label_names = list(GLADIATOR_LABELS.keys())
 label_texts = [GLADIATOR_LABELS[k] for k in label_names]
 
+target_sr = 48000   # CLAP expects 48kHz
+
+
 # Pre-encode label texts once
 with torch.no_grad():
     text_inputs = processor(text=label_texts, return_tensors="pt", padding=True)
@@ -84,10 +108,14 @@ def classify_audio(path: Path, top_k: int = 3):
     waveform, sr = torchaudio.load(str(path))
 
     # CLAP expects 48 kHz by default; resample if needed.:contentReference[oaicite:3]{index=3}
-    target_sr = 48000
     if sr != target_sr:
         waveform = torchaudio.functional.resample(waveform, sr, target_sr)
         sr = target_sr
+
+    # Minimum length check in classify_audio
+    MIN_SAMPLES = target_sr  # 1 second minimum
+    if waveform.shape[-1] < MIN_SAMPLES:
+        waveform = torch.nn.functional.pad(waveform, (0, MIN_SAMPLES - waveform.shape[-1]))
 
     # Convert to mono if multi-channel
     if waveform.shape[0] > 1:
@@ -119,18 +147,25 @@ def iter_wavs(root: Path):
                 yield Path(dirpath) / fn
 
 def main():
-    pass
-"""
+    
     root = Path(AUDIO_DIR)
+
+    # Potential empty directory handling:
+    if not root.exists():
+        raise FileNotFoundError(f"Audio directory not found: {root}")
+
     rows = []
 
-    for audio_path in iter_wavs(root):
+    # Progress feedback for large libraries:
+    for audio_path in tqdm(list(iter_wavs(root)), desc="Classifying"):
+  # for audio_path in iter_wavs(root):
         rel = audio_path.relative_to(root)
-        print(f"Processing {rel}...")
+        # Remove print, or use tqdm.write() for errors only
+        # print(f"Processing {rel}...")
         try:
             tags = classify_audio(audio_path, top_k=TOP_K)
         except Exception as e:
-            print(f"  ERROR on {rel}: {e}")
+            tqdm.write(f"  ERROR on {rel}: {e}")    # tqdm-safe output
             continue
 
         row = {
@@ -151,8 +186,7 @@ def main():
         writer.writeheader()
         writer.writerows(rows)
 
-    print(f"Wrote {len(rows)} rows to {OUTPUT_CSV}")
-"""
+    print(f"Wrote {len(rows)} rows to {OUTPUT_CSV}")   
 
 if __name__ == "__main__":
     main()
