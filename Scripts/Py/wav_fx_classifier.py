@@ -1,7 +1,7 @@
 import os
-os.environ["TORCHAUDIO_USE_BACKEND_DISPATCHER"] = "1"
+#os.environ["TORCHAUDIO_USE_BACKEND_DISPATCHER"] = "1"
 
-import csv
+#import csv
 from pathlib import Path
 
 import torch
@@ -93,14 +93,16 @@ GLADIATOR_LABELS = load_labels_from_crc("crc_index.txt") or {
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 print("Loading CLAP model...")
+
+target_sr = 48000   # CLAP expects 48kHz
+
 processor = AutoProcessor.from_pretrained(MODEL_ID)
+
 model = ClapModel.from_pretrained(MODEL_ID).to(device)
 model.eval()
 
 label_names = list(GLADIATOR_LABELS.keys())
 label_texts = [GLADIATOR_LABELS[k] for k in label_names]
-
-target_sr = 48000   # CLAP expects 48kHz
 
 
 # Pre-encode label texts once
@@ -137,7 +139,7 @@ def classify_audio(path: Path, top_k: int = 3):
     audio_array = waveform.squeeze(0).numpy()
 
     with torch.no_grad():
-        inputs = processor(audios=audio_array, return_tensors="pt", padding=True)
+        inputs = processor(audio=audio_array, sampling_rate=sr, return_tensors="pt", padding=True)
         inputs = {k: v.to(device) for k, v in inputs.items()}
 
         audio_features = model.get_audio_features(**inputs)  # [1, dim]
@@ -175,15 +177,10 @@ def main():
     rows = []
 
     # Progress feedback for large libraries:
-    # for audio_path in tqdm(list(iter_wavs(root, recursive=True)), desc="Classifying"):
-    pbar = tqdm(list(iter_wavs(root, recursive=True)), desc="Classifying")  # patch updates screen stacking
+    pbar = tqdm(list(iter_wavs(root, recursive=True)), desc="Classifying", position=0, leave=True)  # patch updates screen stacking
     for audio_path in pbar:
         rel = audio_path.relative_to(root)
-        pbar.set_description(f"{str(rel)[-50:]}")  # updates in place
-  # for audio_path in iter_wavs(root):
-        # rel = audio_path.relative_to(root)
-        # Remove print, or use tqdm.write() for errors only
-        # print(f"Processing {rel}...")
+        pbar.set_description(f"{str(rel):<250}")     
         try:
             tags = classify_audio(audio_path, top_k=TOP_K)
         except Exception as e:
