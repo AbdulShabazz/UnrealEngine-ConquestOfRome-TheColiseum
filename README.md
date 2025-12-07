@@ -1,4 +1,9 @@
 # UnrealEngine-TheColiseum-ConquerorsOfRome
 8K PC Game for Unreal Engine
 
-Charged wrongfully with the murder of his family by vengeful Senator-merchants, a Roman farmer, Hebron, must become a gladiator and survive the Roman coliseum, to avenge their deaths.
+Platform: Windows 11 x86 i64
+
+Recommended Architecture: 
+2 TB SSD; 256 GB RAM; NVIDIA RTX 5090 24 GDDR6
+
+Charged wrongfully with the murder of his family, a Roman farmer, Hebron, must become a gladiator and survive the Roman coliseum, to avenge their deaths.
