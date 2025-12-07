@@ -1,293 +1,383 @@
 [Thematic Impact]
 
-"D:\BoomAudio\Cinematic Metal - Titan - Designed\DSGNBoom_CINEMATIC HIT-BOOM Black Box_B00M_CTDS.wav"
+    D:\BoomAudio\Cinematic Metal - Titan - Designed\DSGNBoom_CINEMATIC HIT-BOOM Black Box_B00M_CTDS.wav"
 
 [Ground Impact]
 
-D:\BoomAudio\Cinematic Impacts - Designed
+    :\BoomAudio\Cinematic Impacts - Designed
 
 [Chain drag]
 
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_LEAD IN-Metal Scrape_B00M_CICK.wav"
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNSynth_SUSTAIN-Modulated Saw White Noise Blend Wobble Particles_B00M_CICK.wav"
+    D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_LEAD IN-Metal Scrape_B00M_CICK.wav"
+    D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNSynth_SUSTAIN-Modulated Saw White Noise Blend Wobble Particles_B00M_CICK.wav"
 
 [Foundation crumble]
 
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNImpt_SUSTAIN-Transient Distorted Crumble_B00M_CICK.wav"
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNImpt_SUSTAIN-Sweetener Distorted Blast Sustain_B00M_CICK.wav"
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNImpt_SUSTAIN-Sweetener Distorted Crack Modulated_B00M_CICK.wav"
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNImpt_SUSTAIN-Transient Distorted Cracks_B00M_CICK.wav"
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_SUSTAIN-Low Filtered Crunchy Paper Crackle_B00M_CICK.wav"
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_SUSTAIN-Granular Paper Crackle_B00M_CICK.wav"
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_SUSTAIN-Granular Plastic Chips Bag Crackle_B00M_CICK.wav"
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_SUSTAIN-Granular Plastic Food Bag Crackle_B00M_CICK.wav"
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_SUSTAIN-Paper Crumble_B00M_CICK.wav"
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_SUSTAIN-Processed Leather Bag Thunder_B00M_CICK.wav"
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_SUSTAIN-Thunder Crack_B00M_CICK.wav"
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_SUSTAIN-Thunder Crumble_B00M_CICK.wav"
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_SUSTAIN-Tight Textile Friction Rub_B00M_CICK.wav" (Wood)
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Gritty Movement Drum_B00M_CICK.wav"
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Sizzle Low Explosive_B00M_CICK.wav"
+    D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNImpt_SUSTAIN-Transient Distorted Crumble_B00M_CICK.wav"
+    D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNImpt_SUSTAIN-Sweetener Distorted Blast Sustain_B00M_CICK.wav"
+    D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNImpt_SUSTAIN-Sweetener Distorted Crack Modulated_B00M_CICK.wav"
+    D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNImpt_SUSTAIN-Transient Distorted Cracks_B00M_CICK.wav"
+    D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_SUSTAIN-Low Filtered Crunchy Paper Crackle_B00M_CICK.wav"
+    D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_SUSTAIN-Granular Paper Crackle_B00M_CICK.wav"
+    D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_SUSTAIN-Granular Plastic Chips Bag Crackle_B00M_CICK.wav"
+    D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_SUSTAIN-Granular Plastic Food Bag Crackle_B00M_CICK.wav"
+    D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_SUSTAIN-Paper Crumble_B00M_CICK.wav"
+    D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_SUSTAIN-Processed Leather Bag Thunder_B00M_CICK.wav"
+    D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_SUSTAIN-Thunder Crack_B00M_CICK.wav"
+    D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_SUSTAIN-Thunder Crumble_B00M_CICK.wav"
+    D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_SUSTAIN-Tight Textile Friction Rub_B00M_CICK.wav" (Wood)
+    D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Gritty Movement Drum_B00M_CICK.wav"
+    D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Sizzle Low Explosive_B00M_CICK.wav"
 
 [Gothic Foe - Grunt]
 
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_LEAD IN-Granular Ventilation Hose Rub_B00M_CICK.wav"
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNSynth_SUSTAIN-Fluttering White Noise Sine Blend_B00M_CICK.wav" (Satisfied)
+    D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_LEAD IN-Granular Ventilation Hose Rub_B00M_CICK.wav"
+    D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNSynth_SUSTAIN-Fluttering White Noise Sine Blend_B00M_CICK.wav" (Satisfied)
 
 [Gothic Foe - Combat]
 
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNImpt_TAIL-Filtered Zap_B00M_CICK.wav"
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_LEAD IN-Phase Explosion_B00M_CICK.wav"
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_LEAD IN-Scrape Cardboard Box Impact_B00M_CICK.wav"
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_LEAD IN-Scrape Cardboard Box Processed_B00M_CICK.wav"
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_LEAD IN-Scrape Cardboard Box_B00M_CICK.wav"
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_LEAD IN-Tonal Dynamic Modulation_B00M_CICK.wav"
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_LEAD IN-Ventilation Hose Mangled_B00M_CICK.wav"
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_LEAD IN-Video Tape Texture_B00M_CICK.wav"
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Sizzle Out Whooshed_B00M_CICK.wav" (Ground & Pound!)
-"D:\BoomAudio\Cinematic Metal - Titan - Designed\DSGNMisc_METAL IMPACT-SLAM Drop It Hot_B00M_CTDS.wav" (Miss, Ground Hit)
-"D:\BoomAudio\Cinematic Metal - Titan - Designed\DSGNMisc_METAL IMPACT-SLAM Heavens Door_B00M_CTDS.wav"
-"D:\BoomAudio\Cinematic Metal - Titan - Designed\DSGNMisc_METAL IMPACT-SOFT Docked_B00M_CTDS.wav"
-"D:\BoomAudio\Cinematic Metal - Titan - Designed\DSGNMisc_METAL IMPACT-SOFT Lead Balloon_B00M_CTDS.wav"
+    D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNImpt_TAIL-Filtered Zap_B00M_CICK.wav"
+    D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_LEAD IN-Phase Explosion_B00M_CICK.wav"
+    D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_LEAD IN-Scrape Cardboard Box Impact_B00M_CICK.wav"
+    D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_LEAD IN-Scrape Cardboard Box Processed_B00M_CICK.wav"
+    D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_LEAD IN-Scrape Cardboard Box_B00M_CICK.wav"
+    D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_LEAD IN-Tonal Dynamic Modulation_B00M_CICK.wav"
+    D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_LEAD IN-Ventilation Hose Mangled_B00M_CICK.wav"
+    D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_LEAD IN-Video Tape Texture_B00M_CICK.wav"
+    D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Sizzle Out Whooshed_B00M_CICK.wav" (Ground & Pound!)
+    D:\BoomAudio\Cinematic Metal - Titan - Designed\DSGNMisc_METAL IMPACT-SLAM Drop It Hot_B00M_CTDS.wav" (Miss, Ground Hit)
+    D:\BoomAudio\Cinematic Metal - Titan - Designed\DSGNMisc_METAL IMPACT-SLAM Heavens Door_B00M_CTDS.wav"
+    D:\BoomAudio\Cinematic Metal - Titan - Designed\DSGNMisc_METAL IMPACT-SOFT Docked_B00M_CTDS.wav"
+    D:\BoomAudio\Cinematic Metal - Titan - Designed\DSGNMisc_METAL IMPACT-SOFT Lead Balloon_B00M_CTDS.wav"
 
-[[Victory]
-"D:\CRC_WAV\Medieval Life - Construction Kit\BELLLrg_Bell Ringing Big_B00M_MLCK.wav" (Round Over/Next)
+[Victory]
+    D:\CRC_WAV\Medieval Life - Construction Kit\BELLLrg_Bell Ringing Big_B00M_MLCK.wav" (Round Over/Next)
 
-[[Health Regen]
-"D:\CRC_WAV\Modern UI\Background\UIData_BACKGROUND HIGH-Hollow Glass_B00M_MUI.wav"
+[Health Regen]
+    D:\CRC_WAV\Modern UI\Background\UIData_BACKGROUND HIGH-Hollow Glass_B00M_MUI.wav"
 
 [Gothic Foe - Death Rattle]
 
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_IMPACT-Tonal Phasing_B00M_CICK.wav"
+    D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_IMPACT-Tonal Phasing_B00M_CICK.wav"
 
 [Gothic Foe - Victorious]
 
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_LEAD IN-Modulated Phasing_B00M_CICK.wav"
+    D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_LEAD IN-Modulated Phasing_B00M_CICK.wav"
 
 [Spell]
 
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Smooth Flanger White Noise Movement_B00M_CICK.wav"
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNSynth_IMPACT-Thump Noise High Hit_B00M_CICK.wav"
+    D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Smooth Flanger White Noise Movement_B00M_CICK.wav"
+    D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNSynth_IMPACT-Thump Noise High Hit_B00M_CICK.wav"
 
 [Spell - Vaporize Out]
 
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_IMPACT-Wind Soft Short_B00M_CICK.wav"
+    D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_IMPACT-Wind Soft Short_B00M_CICK.wav"
 
 [Spell - Conjure]
 
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Ghostly Horror Tone_B00M_CICK.wav"
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNSynth_IMPACT-Noise Punch Down_B00M_CICK.wav"
+    D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Ghostly Horror Tone_B00M_CICK.wav"
+    D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNSynth_IMPACT-Noise Punch Down_B00M_CICK.wav"
 
 [Combat Carousel - End of Sequence - Loss (pre cinematic)]
 
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_SUSTAIN-Rubberband On Cardboard Box Snap_B00M_CICK.wav"
+    D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_SUSTAIN-Rubberband On Cardboard Box Snap_B00M_CICK.wav"
 
 [Underwater]
 
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Liquid Filter_B00M_CICK.wav"
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Liquid Mass_B00M_CICK.wav"
+    D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Liquid Filter_B00M_CICK.wav"
+    D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Liquid Mass_B00M_CICK.wav"
 
 [Underwater - Debris Dodge]
 
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_SUSTAIN-Stylized Textile Plastic Foil Crackle_B00M_CICK.wav"
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Low Phaser Liquid Texture_B00M_CICK.wav"
+    D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_SUSTAIN-Stylized Textile Plastic Foil Crackle_B00M_CICK.wav"
+    D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Low Phaser Liquid Texture_B00M_CICK.wav"
 
 [Dragon - Flight]
 
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_SUSTAIN-Wind Low_B00M_CICK.wav"
+    D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_SUSTAIN-Wind Low_B00M_CICK.wav"
 
 [Dragon - Combat]
 
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_SUSTAIN-Wind Soft Long_B00M_CICK.wav"
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_SUSTAIN-Wind Low_B00M_CICK.wav"
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_SUSTAIN-Wind Medium_B00M_CICK.wav"
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Broken Thunder_B00M_CICK.wav"
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Crunchy Low End_B00M_CICK.wav"
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Distant Noise_B00M_CICK.wav"
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Distorted Low Doppler Fast_B00M_CICK.wav" (Distant Fire Exhaustion Combat)
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Fizzy Sparkle Out_B00M_CICK.wav"
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Filtered Fire Low_B00M_CICK.wav"
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Filtered Whoosh Explosion_B00M_CICK.wav"
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Filtered Wind Movement Refiltered_B00M_CICK.wav"
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Filtered Wind Movement Short_B00M_CICK.wav"
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Filtered Wind Movement_B00M_CICK.wav"
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Fire Extinguished Gust_B00M_CICK.wav"
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Granular Cardboard Milk Frother_B00M_CICK.wav"
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Granular Comb Filter Concrete Scrape_B00M_CICK.wav"
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Low Movement Sizzle_B00M_CICK.wav"
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Low Moving Bandpass Phaser_B00M_CICK.wav" (Surprise/Regard!)
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Noise Tone_B00M_CICK.wav"
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNSrce_SUSTAIN-Rock Crumble Texture_B00M_CICK.wav"
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNSrce_SUSTAIN-Rock Impact Texture_B00M_CICK.wav"
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNSynth_IMPACT-Hard Transient Thump Filtered_B00M_CICK.wav"
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNSynth_IMPACT-Hard Transient Thump Flutter Short_B00M_CICK.wav"
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNSynth_IMPACT-Hard Transient Thump Flutter_B00M_CICK.wav"
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNSynth_SUSTAIN-Metal Noise Glide_B00M_CICK.wav"
-"D:\BoomAudio\Cinematic Impacts - Designed\DSGNImpt_WHOOSH HIT SOFT-Distant Breath_B00M_CIDS.wav"
-"D:\BoomAudio\Cinematic Metal - Titan - Designed\DSGNMisc_METAL IMPACT-SLAM No Entry_B00M_CTDS.wav" (Gears Engage Clang)
+    "D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_SUSTAIN-Wind Soft Long_B00M_CICK.wav"
+    "D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_SUSTAIN-Wind Low_B00M_CICK.wav"
+    "D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_SUSTAIN-Wind Medium_B00M_CICK.wav"
+    "D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Broken Thunder_B00M_CICK.wav"
+    "D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Crunchy Low End_B00M_CICK.wav"
+    "D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Distant Noise_B00M_CICK.wav"
+    "D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Distorted Low Doppler Fast_B00M_CICK.wav" (Distant Fire Exhaustion Combat)
+    "D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Fizzy Sparkle Out_B00M_CICK.wav"
+    "D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Filtered Fire Low_B00M_CICK.wav"
+    "D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Filtered Whoosh Explosion_B00M_CICK.wav"
+    "D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Filtered Wind Movement Refiltered_B00M_CICK.wav"
+    "D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Filtered Wind Movement Short_B00M_CICK.wav"
+    "D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Filtered Wind Movement_B00M_CICK.wav"
+    "D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Fire Extinguished Gust_B00M_CICK.wav"
+    "D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Granular Cardboard Milk Frother_B00M_CICK.wav"
+    "D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Granular Comb Filter Concrete Scrape_B00M_CICK.wav"
+    "D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Low Movement Sizzle_B00M_CICK.wav"
+    "D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Low Moving Bandpass Phaser_B00M_CICK.wav" (Surprise/Regard!)
+    "D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Noise Tone_B00M_CICK.wav"
+    "D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNSrce_SUSTAIN-Rock Crumble Texture_B00M_CICK.wav"
+    "D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNSrce_SUSTAIN-Rock Impact Texture_B00M_CICK.wav"
+    "D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNSynth_IMPACT-Hard Transient Thump Filtered_B00M_CICK.wav"
+    "D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNSynth_IMPACT-Hard Transient Thump Flutter Short_B00M_CICK.wav"
+    "D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNSynth_IMPACT-Hard Transient Thump Flutter_B00M_CICK.wav"
+    "D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNSynth_SUSTAIN-Metal Noise Glide_B00M_CICK.wav"
+    "D:\BoomAudio\Cinematic Impacts - Designed\DSGNImpt_WHOOSH HIT SOFT-Distant Breath_B00M_CIDS.wav"
+    "D:\BoomAudio\Cinematic Metal - Titan - Designed\DSGNMisc_METAL IMPACT-SLAM No Entry_B00M_CTDS.wav" (Gears Engage Clang)
+    "D:\CRC_WAV\Modern UI\Impact Sweetener\UIMisc_IMPACT SWEETENER-Tremolating Drop_B00M_MUI.wav" (Piercing Chirp, Grunt)
+    "D:\CRC_WAV\Modern UI\Impact Sweetener\UIMisc_IMPACT SWEETENER-Vocal Command_B00M_MUI.wav" (Lethal Counter)
 
 
 [Vanish into tunnel cave]
 
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Big Cave_B00M_CICK.wav"
+    D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Big Cave_B00M_CICK.wav"
 
 [Curtains explode open]
 
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_SUSTAIN-Wind Soft Long_B00M_CICK.wav"
+    D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_SUSTAIN-Wind Soft Long_B00M_CICK.wav"
 
 [Sword SLO-MO Glide Dodge]
 
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Denoised Strike_B00M_CICK.wav"
+    D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Denoised Strike_B00M_CICK.wav"
 
 [Rolling Fire Cart Door RAM]
 
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Distorted Low Doppler_B00M_CICK.wav"
+    D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Distorted Low Doppler_B00M_CICK.wav"
 
 [Close Range Sniper]
 
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Distorted Thunder Hit_B00M_CICK.wav"
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Wind Blow_B00M_CICK.wav"
+    D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Distorted Thunder Hit_B00M_CICK.wav"
+    D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Wind Blow_B00M_CICK.wav"
 
 [Mechanized Foe - Combat]
 
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Driven Metal Plate Vibration_B00M_CICK.wav"
+    D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Driven Metal Plate Vibration_B00M_CICK.wav"
 
 [Grain Spill / Massive Ammo Spill]
 
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Dust Settle_B00M_CICK.wav"
+    D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Dust Settle_B00M_CICK.wav"
 
 [Foe - Acid Vaporize]
 
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Gritty Gust_B00M_CICK.wav"
+    D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Gritty Gust_B00M_CICK.wav"
 
 [Game Over!]
 
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Low Resonant Grumble_B00M_CICK.wav"
+    D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Low Resonant Grumble_B00M_CICK.wav"
 
 [Cavern Impact]
 
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Resonant Explosive Bandpass_B00M_CICK.wav"
+    D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Resonant Explosive Bandpass_B00M_CICK.wav"
 
 [Youth on the Field! (Friend or Foe - Hug or Kick/Dodge)]
 
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Resonant Tones_B00M_CICK.wav"
+    D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Resonant Tones_B00M_CICK.wav"
 
 [Arrow - Big Miss!]
 
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Sizzle Out Whooshed_B00M_CICK.wav"
+    D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Sizzle Out Whooshed_B00M_CICK.wav"
 
 [Lightning Strike]
 
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Slash Phasy Mid_B00M_CICK.wav"
+    D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Slash Phasy Mid_B00M_CICK.wav"
 
 [Ground Flare - 1]
 
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Slash Phasy_B00M_CICK.wav"
+    D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Slash Phasy_B00M_CICK.wav"
 
 [Cavern - Distant Gunshot]
 
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Washed Out Slam_B00M_CICK.wav"
+    D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Washed Out Slam_B00M_CICK.wav"
 
 [Pile Crumble]
 
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-White Noise Crackle Movement_B00M_CICK.wav"
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNSynth_SUSTAIN-Crunchy Move Noise_B00M_CICK.wav"
+    D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-White Noise Crackle Movement_B00M_CICK.wav"
+    D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNSynth_SUSTAIN-Crunchy Move Noise_B00M_CICK.wav"
 
 [PAUSE / UNPAUSE]
 
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Wind Basic_B00M_CICK.wav"
+    D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Wind Basic_B00M_CICK.wav"
 
 [Super Rotary Canon (Low)]
 
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNSynth_SUSTAIN-Crushed Modulated Saw Wobble Particles_B00M_CICK.wav"
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNSynth_SUSTAIN-Gritty Motion Dirty_B00M_CICK.wav"
+    D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNSynth_SUSTAIN-Crushed Modulated Saw Wobble Particles_B00M_CICK.wav"
+    D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNSynth_SUSTAIN-Gritty Motion Dirty_B00M_CICK.wav"
 
 [Super Rotary Gun (Mid)]
 
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNSynth_SUSTAIN-Hard Saw White Noise Crumble_B00M_CICK.wav"
+    D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNSynth_SUSTAIN-Hard Saw White Noise Crumble_B00M_CICK.wav"
 
 [Super Rotary Gun (Single Fire)]
 
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Wind Blow Mid Thin_B00M_CICK.wav"
+    D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Wind Blow Mid Thin_B00M_CICK.wav"
 
 [Super Rotary Gun 2 (Single Fire)]
 
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Wind Blow_B00M_CICK.wav"
+    D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Wind Blow_B00M_CICK.wav"
 
 [Collapsing Water Barrels]
 
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Wind Gust Noisey Static_B00M_CICK.wav"
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Wind Movement Tonal_B00M_CICK.wav"
+    D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Wind Gust Noisey Static_B00M_CICK.wav"
+    D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNMisc_TAIL-Wind Movement Tonal_B00M_CICK.wav"
 
 [Hebron - Combat]
 
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNSrce_SUSTAIN-Metal Impact Distorted Filter Smear_B00M_CICK.wav"
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNSynth_SUSTAIN-Noisy Whoosh Scrape_B00M_CICK.wav" (Demolish Obstacle)
-"D:\BoomAudio\Cinematic Impacts - Designed\DSGNImpt_HIT AGGRESSIVE-Razor Edge_B00M_CIDS.wav"
-"D:\BoomAudio\Cinematic Impacts - Designed\DSGNImpt_HIT SOFT-Iron Fist_B00M_CIDS.wav"
-"D:\BoomAudio\Cinematic Impacts - Designed\DSGNImpt_HIT-Head Bang_B00M_CIDS.wav"
-"D:\BoomAudio\Cinematic Impacts - Designed\DSGNImpt_HIT-Iron Dome_B00M_CIDS.wav"
-"D:\BoomAudio\Cinematic Impacts - Designed\DSGNImpt_HIT-Jailbreak_B00M_CIDS.wav"
-"D:\BoomAudio\Cinematic Impacts - Designed\DSGNImpt_HIT-Open Up_B00M_CIDS.wav"
-"D:\BoomAudio\Cinematic Impacts - Designed\DSGNImpt_HIT-Shutter Flash_B00M_CIDS.wav"
-"D:\BoomAudio\Cinematic Impacts - Designed\DSGNImpt_HIT-Steel Collapse_B00M_CIDS.wav"
-"D:\BoomAudio\Cinematic Impacts - Designed\DSGNImpt_WHOOSH HIT AGGRESSIVE-Casual Violence_B00M_CIDS.wav"
-"D:\BoomAudio\Cinematic Impacts - Designed\DSGNImpt_WHOOSH HIT AGGRESSIVE-Cosmic Dust_B00M_CIDS.wav"
-"D:\BoomAudio\Cinematic Impacts - Designed\DSGNImpt_WHOOSH HIT AGGRESSIVE-Crumbler_B00M_CIDS.wav"
-"D:\BoomAudio\Cinematic Impacts - Designed\DSGNImpt_WHOOSH HIT AGGRESSIVE-Dark Clouds_B00M_CIDS.wav"
-"D:\BoomAudio\Cinematic Impacts - Designed\DSGNImpt_WHOOSH HIT AGGRESSIVE-Delicate Destruction_B00M_CIDS.wav"
-"D:\BoomAudio\Cinematic Impacts - Designed\DSGNImpt_WHOOSH HIT AGGRESSIVE-Galvanized Spank_B00M_CIDS.wav"
-"D:\BoomAudio\Cinematic Impacts - Designed\DSGNImpt_WHOOSH HIT AGGRESSIVE-Rage_B00M_CIDS.wav"
-"D:\BoomAudio\Cinematic Impacts - Designed\DSGNImpt_WHOOSH HIT SOFT-Blurred Lines_B00M_CIDS.wav" (Kick)
-"D:\BoomAudio\Cinematic Impacts - Designed\DSGNImpt_WHOOSH HIT SOFT-Breeze By_B00M_CIDS.wav" (Strike)
-"D:\BoomAudio\Cinematic Impacts - Designed\DSGNImpt_WHOOSH HIT SOFT-Clash_B00M_CIDS.wav" (Strike)
-"D:\BoomAudio\Cinematic Impacts - Designed\DSGNImpt_WHOOSH HIT SOFT-Locker Room_B00M_CIDS.wav"
-"D:\BoomAudio\Cinematic Impacts - Designed\DSGNImpt_WHOOSH HIT SOFT-Shadow_B00M_CIDS.wav"
-"D:\BoomAudio\Cinematic Impacts - Designed\DSGNImpt_WHOOSH HIT-Behind Closed Doors_B00M_CIDS.wav"
-"D:\BoomAudio\Cinematic Impacts - Designed\DSGNImpt_WHOOSH HIT-In Isolation_B00M_CIDS.wav" (Sword in the Ground - Victory)
-"D:\BoomAudio\Cinematic Impacts - Designed\DSGNImpt_WHOOSH HIT-Platinum_B00M_CIDS.wav"
-"D:\BoomAudio\Cinematic Impacts - Designed\DSGNImpt_WHOOSH HIT-Poltergeist Activity_B00M_CIDS.wav"
-"D:\BoomAudio\Cinematic Impacts - Designed\DSGNImpt_WHOOSH HIT-Snare Fill_B00M_CIDS.wav" (Weapon Lost it lands)
-"D:\BoomAudio\Cinematic Impacts - Designed\DSGNImpt_WHOOSH HIT-Vortex_B00M_CIDS.wav"
-"D:\BoomAudio\Cinematic Impacts - Designed\DSGNBoom_BASS DROP-Deep Shock_B00M_CIDS.wav" (Kick stun)
-"D:\BoomAudio\Cinematic Impacts - Designed\DSGNImpt_WHOOSH HIT-Sweet Spot_B00M_CIDS.wav" (Gunshot Dodge)
-"D:\BoomAudio\Cinematic Metal - Titan - Designed\DSGNBoom_CINEMATIC HIT-BOOM Judgement_B00M_CTDS.wav"
-"D:\BoomAudio\Cinematic Metal - Titan - Designed\DSGNBoom_CINEMATIC HIT-BOOM Seize The Day_B00M_CTDS.wav" (Bell Impact Foe)
-"D:\BoomAudio\Cinematic Metal - Titan - Designed\DSGNBoom_CINEMATIC HIT-BOOM Last Hour_B00M_CTDS.wav" (Bell Lands)
-"D:\BoomAudio\Cinematic Metal - Titan - Designed\DSGNBoom_CINEMATIC HIT-BOOM Train Wreck_B00M_CTDS.wav" (New Foe Door)
-"D:\BoomAudio\Cinematic Metal - Titan - Designed\DSGNBram_AGGRESSIVE-Eat This_B00M_CTDS.wav" (Hebron, Look Upon Me)
-"D:\BoomAudio\Cinematic Metal - Titan - Designed\DSGNBram_AGGRESSIVE-In Your Face_B00M_CTDS.wav" (Hebron, Look Upon Me (cont'd))
-"D:\BoomAudio\Cinematic Metal - Titan - Designed\DSGNBram_AGGRESSIVE-Titans Grip_B00M_CTDS.wav" (Hebron, Am I Not Lethal?)
-"D:\BoomAudio\Cinematic Metal - Titan - Designed\DSGNBram_AGGRESSIVE-Wave Of Destruction_B00M_CTDS.wav" (Hebron, Am I Not Lethal?)
-"D:\BoomAudio\Cinematic Metal - Titan - Designed\DSGNBram_SOFT-Call For War_B00M_CTDS.wav" (Fleeing)
-"D:\BoomAudio\Cinematic Metal - Titan - Designed\DSGNBram_SOFT-Earth Shaker_B00M_CTDS.wav" (Enemy Revive)
-"D:\BoomAudio\Cinematic Metal - Titan - Designed\DSGNBram_SOFT-Mean Machine_B00M_CTDS.wav" (Revived Enemy Regard)
-"D:\BoomAudio\Cinematic Metal - Titan - Designed\DSGNMisc_METAL IMPACT-AGGRESSIVE Excalibur_B00M_CTDS.wav"
-"D:\BoomAudio\Cinematic Metal - Titan - Designed\DSGNMisc_METAL IMPACT-AGGRESSIVE Get Over Here_B00M_CTDS.wav" (Rotary Gears Clank)
-"D:\BoomAudio\Cinematic Metal - Titan - Designed\DSGNMisc_METAL IMPACT-AGGRESSIVE Iron Curtain_B00M_CTDS.wav"
+    D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNSrce_SUSTAIN-Metal Impact Distorted Filter Smear_B00M_CICK.wav"
+    D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNSynth_SUSTAIN-Noisy Whoosh Scrape_B00M_CICK.wav" (Demolish Obstacle)
+    D:\BoomAudio\Cinematic Impacts - Designed\DSGNImpt_HIT AGGRESSIVE-Razor Edge_B00M_CIDS.wav"
+    D:\BoomAudio\Cinematic Impacts - Designed\DSGNImpt_HIT SOFT-Iron Fist_B00M_CIDS.wav"
+    D:\BoomAudio\Cinematic Impacts - Designed\DSGNImpt_HIT-Head Bang_B00M_CIDS.wav"
+    D:\BoomAudio\Cinematic Impacts - Designed\DSGNImpt_HIT-Iron Dome_B00M_CIDS.wav"
+    D:\BoomAudio\Cinematic Impacts - Designed\DSGNImpt_HIT-Jailbreak_B00M_CIDS.wav"
+    D:\BoomAudio\Cinematic Impacts - Designed\DSGNImpt_HIT-Open Up_B00M_CIDS.wav"
+    D:\BoomAudio\Cinematic Impacts - Designed\DSGNImpt_HIT-Shutter Flash_B00M_CIDS.wav"
+    D:\BoomAudio\Cinematic Impacts - Designed\DSGNImpt_HIT-Steel Collapse_B00M_CIDS.wav"
+    D:\BoomAudio\Cinematic Impacts - Designed\DSGNImpt_WHOOSH HIT AGGRESSIVE-Casual Violence_B00M_CIDS.wav"
+    D:\BoomAudio\Cinematic Impacts - Designed\DSGNImpt_WHOOSH HIT AGGRESSIVE-Cosmic Dust_B00M_CIDS.wav"
+    D:\BoomAudio\Cinematic Impacts - Designed\DSGNImpt_WHOOSH HIT AGGRESSIVE-Crumbler_B00M_CIDS.wav"
+    D:\BoomAudio\Cinematic Impacts - Designed\DSGNImpt_WHOOSH HIT AGGRESSIVE-Dark Clouds_B00M_CIDS.wav"
+    D:\BoomAudio\Cinematic Impacts - Designed\DSGNImpt_WHOOSH HIT AGGRESSIVE-Delicate Destruction_B00M_CIDS.wav"
+    D:\BoomAudio\Cinematic Impacts - Designed\DSGNImpt_WHOOSH HIT AGGRESSIVE-Galvanized Spank_B00M_CIDS.wav"
+    D:\BoomAudio\Cinematic Impacts - Designed\DSGNImpt_WHOOSH HIT AGGRESSIVE-Rage_B00M_CIDS.wav"
+    D:\BoomAudio\Cinematic Impacts - Designed\DSGNImpt_WHOOSH HIT SOFT-Blurred Lines_B00M_CIDS.wav" (Kick)
+    D:\BoomAudio\Cinematic Impacts - Designed\DSGNImpt_WHOOSH HIT SOFT-Breeze By_B00M_CIDS.wav" (Strike)
+    D:\BoomAudio\Cinematic Impacts - Designed\DSGNImpt_WHOOSH HIT SOFT-Clash_B00M_CIDS.wav" (Strike)
+    D:\BoomAudio\Cinematic Impacts - Designed\DSGNImpt_WHOOSH HIT SOFT-Locker Room_B00M_CIDS.wav"
+    D:\BoomAudio\Cinematic Impacts - Designed\DSGNImpt_WHOOSH HIT SOFT-Shadow_B00M_CIDS.wav"
+    D:\BoomAudio\Cinematic Impacts - Designed\DSGNImpt_WHOOSH HIT-Behind Closed Doors_B00M_CIDS.wav"
+    D:\BoomAudio\Cinematic Impacts - Designed\DSGNImpt_WHOOSH HIT-In Isolation_B00M_CIDS.wav" (Sword in the Ground - Victory)
+    D:\BoomAudio\Cinematic Impacts - Designed\DSGNImpt_WHOOSH HIT-Platinum_B00M_CIDS.wav"
+    D:\BoomAudio\Cinematic Impacts - Designed\DSGNImpt_WHOOSH HIT-Poltergeist Activity_B00M_CIDS.wav"
+    D:\BoomAudio\Cinematic Impacts - Designed\DSGNImpt_WHOOSH HIT-Snare Fill_B00M_CIDS.wav" (Weapon Lost it lands)
+    D:\BoomAudio\Cinematic Impacts - Designed\DSGNImpt_WHOOSH HIT-Vortex_B00M_CIDS.wav"
+    D:\BoomAudio\Cinematic Impacts - Designed\DSGNBoom_BASS DROP-Deep Shock_B00M_CIDS.wav" (Kick stun)
+    D:\BoomAudio\Cinematic Impacts - Designed\DSGNImpt_WHOOSH HIT-Sweet Spot_B00M_CIDS.wav" (Gunshot Dodge)
+    D:\BoomAudio\Cinematic Metal - Titan - Designed\DSGNBoom_CINEMATIC HIT-BOOM Judgement_B00M_CTDS.wav"
+    D:\BoomAudio\Cinematic Metal - Titan - Designed\DSGNBoom_CINEMATIC HIT-BOOM Seize The Day_B00M_CTDS.wav" (Bell Impact Foe)
+    D:\BoomAudio\Cinematic Metal - Titan - Designed\DSGNBoom_CINEMATIC HIT-BOOM Last Hour_B00M_CTDS.wav" (Bell Lands)
+    D:\BoomAudio\Cinematic Metal - Titan - Designed\DSGNBoom_CINEMATIC HIT-BOOM Train Wreck_B00M_CTDS.wav" (New Foe Door)
+    D:\BoomAudio\Cinematic Metal - Titan - Designed\DSGNBram_AGGRESSIVE-Eat This_B00M_CTDS.wav" (Hebron, Look Upon Me)
+    D:\BoomAudio\Cinematic Metal - Titan - Designed\DSGNBram_AGGRESSIVE-In Your Face_B00M_CTDS.wav" (Hebron, Look Upon Me (cont'd))
+    D:\BoomAudio\Cinematic Metal - Titan - Designed\DSGNBram_AGGRESSIVE-Titans Grip_B00M_CTDS.wav" (Hebron, Am I Not Lethal?)
+    D:\BoomAudio\Cinematic Metal - Titan - Designed\DSGNBram_AGGRESSIVE-Wave Of Destruction_B00M_CTDS.wav" (Hebron, Am I Not Lethal?)
+    D:\BoomAudio\Cinematic Metal - Titan - Designed\DSGNBram_SOFT-Call For War_B00M_CTDS.wav" (Fleeing)
+    D:\BoomAudio\Cinematic Metal - Titan - Designed\DSGNBram_SOFT-Earth Shaker_B00M_CTDS.wav" (Enemy Revive)
+    D:\BoomAudio\Cinematic Metal - Titan - Designed\DSGNBram_SOFT-Mean Machine_B00M_CTDS.wav" (Revived Enemy Regard)
+    D:\BoomAudio\Cinematic Metal - Titan - Designed\DSGNMisc_METAL IMPACT-AGGRESSIVE Excalibur_B00M_CTDS.wav"
+    D:\BoomAudio\Cinematic Metal - Titan - Designed\DSGNMisc_METAL IMPACT-AGGRESSIVE Get Over Here_B00M_CTDS.wav" (Rotary Gears Clank)
+    D:\BoomAudio\Cinematic Metal - Titan - Designed\DSGNMisc_METAL IMPACT-AGGRESSIVE Iron Curtain_B00M_CTDS.wav"
+    D:\CRC_WAV\Modern UI\Confirm\UIClick_CONFIRM MEDIUM-High Ring_B00M_MUI.wav" (Enemy Laser Tracking)
+    D:\CRC_WAV\Modern UI\Deny\UIClick_DENY MEDIUM-Dropping Grains_B00M_MUI.wav" (Combat Carousel Collapse)
+    D:\CRC_WAV\Modern UI\Deny\UIClick_DENY MEDIUM-Laser Shield_B00M_MUI.wav" (Combat Carousel Invincible)
 
+[Hebron (Map Exploration)]
+
+    D:\CRC_WAV\Modern UI\Confirm\UIClick_CONFIRM SMALL-Approve Complex Stutter_B00M_MUI.wav" (Hand Wrist Map)
+    D:\CRC_WAV\Modern UI\Confirm\UIClick_CONFIRM SMALL-Crystal Chimes_B00M_MUI.wav" (Loot Box Emptying Menu Call up)
+    D:\CRC_WAV\Modern UI\Confirm\UIClick_CONFIRM SMALL-High Glass Tonal_B00M_MUI.wav" (A glimpse at, Corner of his eye)
+
+[Mechanized Foe (Combat)]
+
+    D:\CRC_WAV\Modern UI\Confirm\UIClick_CONFIRM MEDIUM-High Tech Enter Light_B00M_MUI.wav"
+    D:\CRC_WAV\Modern UI\Confirm\UIClick_CONFIRM LARGE-Filter Bell Wobble_B00M_MUI.wav" (Invincible)
+    D:\CRC_WAV\Modern UI\Confirm\UIClick_CONFIRM MEDIUM-Metal Impact Synth_B00M_MUI.wav" (Confirmed Lock on)
+    D:\CRC_WAV\Modern UI\Confirm\UIClick_CONFIRM MEDIUM-Synthetic Grain Sweep_B00M_MUI.wav" (Grunt)
+    D:\CRC_WAV\Modern UI\Deny\UIClick_DENY MEDIUM-Metallic Bass Hit Modulation_B00M_MUI.wav" (Taunt)
+    D:\CRC_WAV\Modern UI\Impact Sweetener\UIMisc_IMPACT SWEETENER-Alien Drop_B00M_MUI.wav" (Grunt)
+    D:\CRC_WAV\Modern UI\Impact Sweetener\UIMisc_IMPACT SWEETENER-AI Power Down_B00M_MUI.wav"
 
 [Turning Point in Combat]
 
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNSrce_SUSTAIN-Resonant Tonal_Bass_B00M_CICK.wav"
+    D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNSrce_SUSTAIN-Resonant Tonal_Bass_B00M_CICK.wav"
+    D:\CRC_WAV\Modern UI\Impact Sweetener\UIMisc_IMPACT SWEETENER-Hit Wobble_B00M_MUI.wav" (Mechanized Foe)
 
-[Impact - Fizzle]
+[Impact (Fizzle)]
 
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNSynth_IMPACT-Thump Gritty_B00M_CICK.wav"
+    D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNSynth_IMPACT-Thump Gritty_B00M_CICK.wav"
 
 [Fizzle w/ Sparks]
 
-"D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNSynth_SUSTAIN-Noise Down_B00M_CICK.wav"
+    D:\BoomAudio\Cinematic Impacts - Construction Kit\DSGNSynth_SUSTAIN-Noise Down_B00M_CICK.wav"
 
 [Vault Shut Slam]
 
-"D:\BoomAudio\Cinematic Impacts - Designed\DSGNImpt_WHOOSH HIT-Eclipse_B00M_CIDS.wav"
+    D:\BoomAudio\Cinematic Impacts - Designed\DSGNImpt_WHOOSH HIT-Eclipse_B00M_CIDS.wav"
 
 [Gates of Hell Shut]
 
-"D:\BoomAudio\Cinematic Metal - Titan - Designed\DSGNBoom_CINEMATIC HIT-BOOM Last Call_B00M_CTDS.wav"
+    D:\BoomAudio\Cinematic Metal - Titan - Designed\DSGNBoom_CINEMATIC HIT-BOOM Last Call_B00M_CTDS.wav"
+
+[Corridor (Night Tension)]
+
+    D:\CRC_WAV\Modern UI\Background\UIData_BACKGROUND HIGH-Noisy Grains_B00M_MUI.wav"
+
+[UltraWolf Corridor]
+
+    D:\CRC_WAV\Modern UI\Background\UIData_BACKGROUND HIGH-Sizzle Drone_B00M_MUI.wav"
+
+[Electric Charge Up]
+
+    D:\CRC_WAV\Modern UI\Background\UIData_BACKGROUND HIGH-Sizzle Hum_B00M_MUI.wav"
+
+[Phase Energy]
+
+    D:\CRC_WAV\Modern UI\Background\UIData_BACKGROUND HIGH-Zapping Surface_B00M_MUI.wav"
+
+[It's Stunning, around the corner]
+
+    D:\CRC_WAV\Modern UI\Background\UIData_BACKGROUND LOW-Deep Dark Drone_B00M_MUI.wav"
+
+[Health HP Inc Increase Level Up]
+
+    D:\CRC_WAV\Modern UI\Confirm\UIClick_CONFIRM LARGE-Alien Hologram_B00M_MUI.wav"
+
+[UI]
+
+    D:\CRC_WAV\Modern UI\Confirm\UIClick_CONFIRM MEDIUM-Synth High Low Sweeps_B00M_MUI.wav" (Slider)
+    D:\CRC_WAV\Modern UI\Confirm\UIClick_CONFIRM MEDIUM-Digital Grain Flutter_B00M_MUI.wav" (UI Menu Option Remove Delete from Inventory)
+    D:\CRC_WAV\Modern UI\Confirm\UIClick_CONFIRM LARGE-Dark Bionic_B00M_MUI.wav" (Shut Menu Close)
+    D:\CRC_WAV\Modern UI\Confirm\UIClick_CONFIRM MEDIUM-Glassy Terminal_B00M_MUI.wav" (Menu Select Choose)
+    D:\CRC_WAV\Modern UI\Confirm\UIClick_CONFIRM LARGE-Deep Wow_B00M_MUI.wav" (Assign Weapon)
+    D:\CRC_WAV\Modern UI\Confirm\UIClick_CONFIRM MEDIUM-Classic_B00M_MUI.wav" (Menu Next Screen Reverse Last Screen)
+    D:\CRC_WAV\Modern UI\Confirm\UIClick_CONFIRM MEDIUM-Tonal Click High_B00M_MUI.wav" (Expand Weapons accessable in combat)
+    D:\CRC_WAV\Modern UI\Confirm\UIClick_CONFIRM SMALL-Glassy Terminal Subtle_B00M_MUI.wav" (GPU/CPU)
+    D:\CRC_WAV\Modern UI\Confirm\UIClick_CONFIRM SMALL-High Tech Clean Subtle_B00M_MUI.wav"
+    D:\CRC_WAV\Modern UI\Confirm\UIClick_CONFIRM SMALL-Metallic High_B00M_MUI.wav" (Weapon, Formal Presenting)
+    D:\CRC_WAV\Modern UI\Deny\UIClick_DENY MEDIUM-Crystal Clicks_B00M_MUI.wav" (Reject)
+    D:\CRC_WAV\Modern UI\Deny\UIClick_DENY MEDIUM-Dirty Low Scratch_B00M_MUI.wav"
+    D:\CRC_WAV\Modern UI\Deny\UIClick_DENY MEDIUM-Hollow Metal_B00M_MUI.wav"
+
+    D:\CRC_WAV\Modern UI\Confirm\UIClick_CONFIRM LARGE-Morph Impact_B00M_MUI.wav" (Menu Potion Hit)
+
+[Combat Carousel Sweep In & Out]
+
+    D:\CRC_WAV\Modern UI\Confirm\UIClick_CONFIRM LARGE-High Tech Enter Bottom_B00M_MUI.wav"
+
+[Rotary Gun]
+
+    D:\CRC_WAV\Modern UI\Confirm\UIClick_CONFIRM LARGE-High Tech Enter Heavy_B00M_MUI.wav" (Menu Rotary Gun Retarget)
+    D:\CRC_WAV\Modern UI\Confirm\UIClick_CONFIRM LARGE-Low Filter High Crystallizer_B00M_MUI.wav" M(enu Shutdown)
+    D:\CRC_WAV\Modern UI\Confirm\UIClick_CONFIRM LARGE-Hologram Access_B00M_MUI.wav" (Menu Call Up Summon)
+    D:\CRC_WAV\Modern UI\Confirm\UIClick_CONFIRM LARGE-High Tech Enter Sweep_B00M_MUI.wav"
+    D:\CRC_WAV\Modern UI\Deny\UIClick_DENY SMALL-Glassy Terminal_B00M_MUI.wav"
+    D:\CRC_WAV\Modern UI\Confirm\UIClick_CONFIRM SMALL-Calculate Data Dirty Subtle Complex_B00M_MUI.wav" (Mini Game Progress)
+    D:\CRC_WAV\Modern UI\Confirm\UIClick_CONFIRM LARGE-High Tech Sweep_B00M_MUI.wav"
+    D:\CRC_WAV\Modern UI\Confirm\UIClick_CONFIRM MEDIUM-Beep Click Drone_B00M_MUI.wav"
+    D:\CRC_WAV\Modern UI\Deny\UIClick_DENY SMALL-Negative Beeps_B00M_MUI.wav" (Keypad Buttons)
+    D:\CRC_WAV\Modern UI\Confirm\UIClick_CONFIRM LARGE-High Tech Zap Screen_B00M_MUI.wav"  (Battery Cell Power Down Up)
+    D:\CRC_WAV\Modern UI\Impact Sweetener\UIMisc_IMPACT SWEETENER-Modulated Bass Drop_B00M_MUI.wav" (Battery Cell Power Down Off)
+
+[Bombarment]
+
+    D:\CRC_WAV\Modern UI\Impact Sweetener\UIMisc_IMPACT SWEETENER-Low Bump_B00M_MUI.wav" (Underground Metal Distant)
+    D:\CRC_WAV\Modern UI\Impact Sweetener\UIMisc_IMPACT SWEETENER-Snap Bass Drop_B00M_MUI.wav" (Surface Impact Distant)
+
+[End Credits (Flint to Black)]
+
+    D:\CRC_WAV\Modern UI\Confirm\UIClick_CONFIRM SMALL-Access Reversed_B00M_MUI.wav"
 
 Bookmark
 
-(Cinematic Impacts - Construction Kit - File 259)
-(Cinematic Metal - Titan - Designed - File 43)
+    (Cinematic Impacts - Construction Kit - File 259)
+    (Cinematic Metal - Titan - Designed - File 43)
