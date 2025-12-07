@@ -17,4 +17,4 @@ Strategy: Hebron must win flawless strategic victories, while being protected by
 
 - [ ] A Free Roam Open World: The sewers and catacombs are navigable. Perhaps a secret route to the emperor's Imperial Box.
 
--[ ] multi language (captions) support.
+- [ ] multi language (captions) support.
