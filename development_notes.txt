@@ -8,3 +8,13 @@ Strategy: Hebron must win flawless strategic victories, while being protected by
 - [ ] Hebron must successfully block an enemy Ability to gain that ability.
 
 - [ ] Backfill color (BGYOR) of the Combat Carousel communicates player health (when player receives damage, former healthy cells outlines glide to the Left). As time progresses while correct combinations are chosen, HP is regenerated 
+
+- [ ] Hebron can abscond the sewer access keys from a fallen Roman guard and flee through the sewers to his freedom (2 minutes)
+
+- [ ] Ground-directed nuclear blasts are deployed from high altitude sky to destroy grenade tossing air blimps, creating emblazened sky plumes, the ionosphere on fire, and massive blast zones in the coliseum.
+
+- [ ] Massive, wooden, two hundred story pitch forks, having strewn crucified bodies across it are set ablaze and allowed to fall in the coliseum.
+
+- [ ] A Free Roam Open World: The sewers and catacombs are navigable. Perhaps a secret route to the emperor's Imperial Box.
+
+-[ ] multi language (captions) support.
