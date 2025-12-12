@@ -17,11 +17,15 @@ EXT. THE BEACH - THE ISLAND - DAY
 
 A worn and ragged man, lance, stands bound IN chains on the beach, facing the lush treeline. which leads to the jungle.
 
+A ship behind takes off toward the stars!
+
+FURTHER DOWN THE SHORE
+
 Thousands of wild and screaming raiders interact further down the shores!
 
-A female raider spots Lance! Thery surround him!!
+A female raider spots Lance! 
 
 FEMALE RAIDER
 Hey you! Give us your loot!!
 
-A boot FROM the shadows suddenly kicks Lance forward! He collapses to the ground!
+They approach and surround him!!
