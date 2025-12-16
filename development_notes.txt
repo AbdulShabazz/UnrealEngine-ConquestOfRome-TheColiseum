@@ -68,7 +68,7 @@ Rig w/ the aid of custom "LookAt" blueprints. The Control Rig Dependency Graph (
 
 - [ ] Proposed Biome “transition tiles” (forest...grassland; taiga...tundra; grassland...desert; forest...swamp) and watercourse routing.
 
-
+- [ ] Support swimming modes, climbing and full open world exploration.
 
 
 
