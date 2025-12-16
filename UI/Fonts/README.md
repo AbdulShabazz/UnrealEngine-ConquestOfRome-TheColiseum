@@ -1,4 +1,4 @@
-## License Free Fonts (Libraries) Shipping with the game.
+## Royalty Free Fonts (Libraries) Shipping with the game.
 
 Inter  
 Noto_Sans  
