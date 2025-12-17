@@ -1,0 +1,72 @@
+[Forest/Woods (mountains + waterfalls)]
+
+    Olympic Mountains (Hurricane Ridge), USA: 47.955745, -123.435815 
+    (Steep Mountain Ridge, navigable!)
+
+    Cascade Range (Mount Rainier), USA: 46.851731, -121.760395 
+    (Basic surrounding Terrain, view from grasslands)
+
+    Fiordland (Milford Sound), New Zealand: -44.648281, 167.905777   
+    (Waterfalls!)
+
+    Norwegian fjords (Geirangerfjord), Norway: 62.103561, 7.099228 
+    (Gorge topography)
+
+[Tundra (especially fierce mountains)]
+
+    Scoresby Sund region, Greenland: 70.5333, -24.3500 
+    
+
+    Auyuittuq National Park, Baffin Island, Canada: 67.5, -65.9999999 
+    
+
+    Svalbard (Longyearbyen area, Spitsbergen): 78.2232, 15.6469
+
+[Grassland (big sightlines to mountains)]
+
+    Grand Teton National Park, USA: 43.790802, -110.684944 
+    
+
+    Patagonia "plains-to-spires" anchor (Fitz Roy vicinity): -49.271455, -73.043266 
+    
+
+    East Africa highland-savana anchor (Ngorongoro Crater region): -3.176634, 35.578812
+
+[Desert (canyons plus iconic forms)]
+
+    Grand Canyon South Rim, USA: 36.056198, -112.125198 
+    
+
+    Zion National Park, USA: 37.297817, -113.028770 
+    
+
+    Canyonlands National Park, USA: 38.3269, -109.8783
+    
+
+    Monument Valley, USA: 36.983, -110.100 
+    
+
+    Wadi Rum, Jordan: 29.555857, 35.407471 
+    
+
+    Atacama "lunar" anchor (Valle de la Luna), Chile: -22.948414, -68.297710 (from DMS metadata)
+
+[Taiga (boreal + rugged plateau option)]
+
+    Putorana Plateau (use as "taiga epic" donor), Russia: ~69.0, 93.0
+
+[Jungle (steep jungle mountains)]
+
+    New Guinea high relief anchor (Carstensz/Puncak Jaya region; use lower-elevation flanks for jungle): -4.078531, 137.158077    
+
+    Amazon-Andes foothills anchor (Tarapoto region), Peru: -6.482478, -76.372689
+
+[Woods/Swamp (low relief wetlands)]
+
+    Pantanal, Brazil: -17.716637, -57.383518 
+    
+
+    Okavango Delta, Botswana: -19.318701, 22.446918 
+    
+
+    Atchafalaya Basin, USA: 29.4383, -91.4167
